@@ -10,7 +10,7 @@ Group=deplab
 WorkingDirectory=/opt/deplab/current
 EnvironmentFile=/opt/deplab/shared/.env
 Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/opt/deplab/current/.venv/bin/uvicorn deplab.api.main:app --host 127.0.0.1 --port 8000
+ExecStart=/opt/deplab/current/.venv/bin/uvicorn --factory deplab.api.main:create_app --host 127.0.0.1 --port 8000
 Restart=on-failure
 RestartSec=3
 TimeoutStopSec=20

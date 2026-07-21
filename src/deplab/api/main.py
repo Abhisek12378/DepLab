@@ -155,11 +155,14 @@ def create_app(
     return app
 
 
-app = create_app()
-
-
 def run() -> None:
     import uvicorn
 
     settings = ApiSettings.from_environment()
-    uvicorn.run("deplab.api.main:app", host=settings.host, port=settings.port, reload=False)
+    uvicorn.run(
+        "deplab.api.main:create_app",
+        factory=True,
+        host=settings.host,
+        port=settings.port,
+        reload=False,
+    )
