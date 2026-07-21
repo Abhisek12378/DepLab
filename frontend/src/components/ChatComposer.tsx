@@ -3,10 +3,17 @@ import { ArrowUp, CornerDownLeft } from "lucide-react";
 
 interface ChatComposerProps {
   busy: boolean;
+  showExamples: boolean;
   onSend: (content: string) => Promise<boolean>;
 }
 
-export function ChatComposer({ busy, onSend }: ChatComposerProps) {
+const EXAMPLE_QUESTIONS = [
+  "Can I upgrade numpy to 2.0.2?",
+  "What breaks if I move to Python 3.12?",
+  "Suggest the safest full upgrade",
+];
+
+export function ChatComposer({ busy, showExamples, onSend }: ChatComposerProps) {
   const [content, setContent] = useState("");
 
   async function submit() {
@@ -24,6 +31,13 @@ export function ChatComposer({ busy, onSend }: ChatComposerProps) {
 
   return (
     <div className="composer-wrap">
+      {showExamples && (
+        <div className="composer-examples" aria-label="Example questions">
+          {EXAMPLE_QUESTIONS.map((question) => (
+            <button type="button" key={question} onClick={() => setContent(question)} disabled={busy}>{question}</button>
+          ))}
+        </div>
+      )}
       <div className="composer">
         <textarea
           value={content}

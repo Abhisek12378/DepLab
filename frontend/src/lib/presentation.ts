@@ -23,6 +23,12 @@ export function evidenceLabel(risk: PairRisk): string {
     : "Model prediction";
 }
 
+export function formatCoverageWarning(warning: string): string {
+  const requestsVersion = warning.match(/with requests==([^\s]+) on Python/i)?.[1];
+  if (requestsVersion) return `requests ${requestsVersion}: unrelated to this change, not scored.`;
+  return warning;
+}
+
 export function shortConversationId(id: string): string {
   return id.slice(0, 8).toUpperCase();
 }

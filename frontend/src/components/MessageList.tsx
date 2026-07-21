@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { Bot, UserRound } from "lucide-react";
-import ReactMarkdown from "react-markdown";
 import type { ChatMessage } from "../types";
 import { ResultDetails } from "./ResultDetails";
+import { StructuredAnswer } from "./StructuredAnswer";
 
 interface MessageListProps {
   messages: ChatMessage[];
@@ -31,7 +31,7 @@ function Message({ message }: { message: ChatMessage }) {
       <div className="message-avatar">{assistant ? <Bot size={17} /> : <UserRound size={17} />}</div>
       <div className="message-content">
         <div className="message-meta"><strong>{assistant ? "DepLab" : "You"}</strong><time>{new Date(message.created_at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}</time></div>
-        <div className="message-bubble">{assistant ? <ReactMarkdown>{message.content}</ReactMarkdown> : message.content}</div>
+        <div className="message-bubble">{assistant && message.result ? <StructuredAnswer result={message.result} fallback={message.content} /> : message.content}</div>
         {assistant && message.result && <ResultDetails result={message.result} />}
       </div>
     </article>
@@ -45,7 +45,6 @@ function EmptyChat() {
       <span className="eyebrow">Workspace ready</span>
       <h2>What would you like to change?</h2>
       <p>Ask about an upgrade, downgrade, or exact package combination. You can ask follow-up questions naturally.</p>
-      <div className="example-prompts"><span>“Can I upgrade NumPy to 2.0.2?”</span><span>“Why does pandas block that?”</span></div>
     </div>
   );
 }
