@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Package pairs with registered interoperability smoke tests.",
+  "platform": "linux_x86_64",
+  "python_versions": ["3.10", "3.11", "3.12"],
+  "families": [
+    {"name": "numpy-pandas", "package_a": "numpy", "package_b": "pandas"},
+    {"name": "numpy-scipy", "package_a": "numpy", "package_b": "scipy"},
+    {"name": "numpy-scikit-learn", "package_a": "numpy", "package_b": "scikit-learn"},
+    {"name": "requests-urllib3", "package_a": "requests", "package_b": "urllib3"},
+    {"name": "flask-werkzeug", "package_a": "flask", "package_b": "werkzeug"},
+    {"name": "jinja2-markupsafe", "package_a": "jinja2", "package_b": "markupsafe"}
+  ]
+}

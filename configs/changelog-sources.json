@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Official, version-pinned changelog sources. Content is collected once per package release and reduced to deterministic signals.",
+  "packages": {
+    "flask": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/pallets/flask/{version}/CHANGES.rst"
+    },
+    "werkzeug": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/pallets/werkzeug/{version}/CHANGES.rst"
+    },
+    "jinja2": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/pallets/jinja/{version}/CHANGES.rst"
+    },
+    "markupsafe": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/pallets/markupsafe/{version}/CHANGES.rst"
+    },
+    "requests": {
+      "kind": "history",
+      "tag_template": "v{version}",
+      "url_template": "https://raw.githubusercontent.com/psf/requests/{tag}/HISTORY.md"
+    },
+    "urllib3": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/urllib3/urllib3/{version}/CHANGES.rst"
+    },
+    "numpy": {
+      "kind": "release_note",
+      "tag_template": "v{version}",
+      "url_template": "https://raw.githubusercontent.com/numpy/numpy/{tag}/doc/source/release/{note_version}-notes.rst",
+      "include_series_baseline": true,
+      "include_major_baseline_from": 2
+    },
+    "pandas": {
+      "kind": "release_note",
+      "tag_template": "v{version}",
+      "url_template": "https://raw.githubusercontent.com/pandas-dev/pandas/{tag}/doc/source/whatsnew/v{note_version}.rst",
+      "include_series_baseline": true
+    },
+    "scipy": {
+      "kind": "release_note",
+      "tag_template": "v{version}",
+      "url_template": "https://raw.githubusercontent.com/scipy/scipy/{tag}/doc/source/release/{note_version}-notes.rst",
+      "historical_before": "1.11.0",
+      "historical_url_template": "https://raw.githubusercontent.com/scipy/scipy/{tag}/doc/release/{note_version}-notes.rst",
+      "include_series_baseline": true
+    },
+    "scikit-learn": {
+      "kind": "series_history",
+      "url_template": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/{version}/doc/whats_new/v{major_minor}.rst"
+    },
+    "matplotlib": {
+      "kind": "release_note",
+      "tag_template": "v{version}",
+      "url_template": "https://raw.githubusercontent.com/matplotlib/matplotlib/{tag}/doc/release/prev_whats_new/whats_new_{series_version}.rst",
+      "historical_before": "3.11.0",
+      "historical_url_template": "https://raw.githubusercontent.com/matplotlib/matplotlib/{tag}/doc/users/prev_whats_new/whats_new_{series_version}.rst"
+    },
+    "numba": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/numba/numba/{version}/docs/source/release/{note_version}-notes.rst",
+      "historical_before": "0.58.0",
+      "historical_url_template": "https://raw.githubusercontent.com/numba/numba/{version}/CHANGE_LOG"
+    },
+    "xarray": {
+      "kind": "history",
+      "tag_template": "v{padded_version}",
+      "url_template": "https://raw.githubusercontent.com/pydata/xarray/{tag}/doc/whats-new.rst"
+    },
+    "pillow": {
+      "kind": "release_note",
+      "url_template": "https://raw.githubusercontent.com/python-pillow/Pillow/{version}/docs/releasenotes/{note_version}.rst"
+    },
+    "httpx": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/encode/httpx/{version}/CHANGELOG.md"
+    },
+    "httpcore": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/encode/httpcore/{version}/CHANGELOG.md"
+    },
+    "django": {
+      "kind": "release_note",
+      "url_template": "https://raw.githubusercontent.com/django/django/{version}/docs/releases/{note_version}.txt"
+    },
+    "asgiref": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/django/asgiref/{version}/CHANGELOG.txt"
+    },
+    "cryptography": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/pyca/cryptography/{version}/CHANGELOG.rst"
+    },
+    "pyopenssl": {
+      "kind": "history",
+      "url_template": "https://raw.githubusercontent.com/pyca/pyopenssl/{version}/CHANGELOG.rst"
+    }
+  }
+}

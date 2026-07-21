@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs\\systematic-matrix.json",
+  "shard_index": 12,
+  "shard_count": 13,
+  "experiments": [
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.0.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.1.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==2.0.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==2.1.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.4",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==2.0.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==2.1.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.5",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==2.0.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==2.1.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.6",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==2.11.3",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==2.11.3",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==2.11.3",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==2.11.3",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==2.11.3",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.0.3",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.0.3",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.0.3",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.0.3",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.0.3",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==2.1.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==3.0.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.2",
+      "package_b": "markupsafe==3.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.1.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "jinja2-markupsafe",
+      "package_a": "jinja2==3.1.3",
+      "package_b": "markupsafe==2.1.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

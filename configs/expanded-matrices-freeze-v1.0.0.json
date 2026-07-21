@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0.0",
+  "freeze_id": "deplab-expanded-matrices-v1.0.0",
+  "frozen_at": "2026-07-19T12:25:09.560787+00:00",
+  "target_platform": "linux_x86_64",
+  "python_versions": [
+    "3.10",
+    "3.11",
+    "3.12"
+  ],
+  "execution_policy": {
+    "development": "Outcomes may be inspected and used for feature and model development.",
+    "final_holdout": "Keep outcomes sealed. Run only after the feature list, trained model, decision threshold, and evaluation script are frozen.",
+    "inference_inputs": "PyPI metadata, wheel metadata, version pins, Python target, and version-pinned changelog signals only. Import and smoke-test outcomes are labels, never inputs."
+  },
+  "splits": {
+    "development": {
+      "path": "configs/expanded-development-matrix.json",
+      "sha256": "18c521cfa70c1e50f302c6ecdc3c18f76c5d277803444189b9e44df1c8215a06",
+      "experiments": 3269,
+      "families": 15,
+      "package_names": [
+        "flask",
+        "jinja2",
+        "markupsafe",
+        "matplotlib",
+        "numba",
+        "numpy",
+        "pandas",
+        "pillow",
+        "requests",
+        "scikit-learn",
+        "scipy",
+        "urllib3",
+        "werkzeug",
+        "xarray"
+      ],
+      "shards": 33,
+      "shard_size": 100,
+      "shard_directory": "configs/expanded-development-shards",
+      "shard_directory_sha256": "d1f669674fea0486b034ec4453f07f3c5d247f3a69f02cd9737abb69ccf29946"
+    },
+    "final_holdout": {
+      "path": "configs/expanded-final-holdout-matrix.json",
+      "sha256": "25d5a1ff215fa5888aa493ca188e09eddf30fb6e88877874015f41d72f7c880c",
+      "experiments": 840,
+      "families": 3,
+      "package_names": [
+        "asgiref",
+        "cryptography",
+        "django",
+        "httpcore",
+        "httpx",
+        "pyopenssl"
+      ],
+      "shards": 9,
+      "shard_size": 100,
+      "shard_directory": "configs/expanded-final-holdout-shards",
+      "shard_directory_sha256": "8287ff42dc6de7622b167a406f442ff21419a83e21ac9935f8e10abd5a34e289"
+    }
+  },
+  "existing_development_results": {
+    "sources": [
+      {
+        "path": "outputs/systematic-main-full.jsonl",
+        "sha256": "0820b18e6453a3722cc476c7f865fc6a99af19d8e0b034215babcd7edb588084"
+      },
+      {
+        "path": "outputs/external-test-results.jsonl",
+        "sha256": "fb8c89df921d65f0c290561544245eb68c422d70d09bc01597075158e060555d"
+      }
+    ],
+    "unique_experiments": 707,
+    "all_inside_development_matrix": true,
+    "remaining_new_development_experiments": 2562
+  },
+  "frozen_inputs": [
+    {
+      "path": "configs/expanded-scope.json",
+      "sha256": "efe72f5e2bc04989f9055e672767077ef128abded3803187cb3e6a6f1fe6ba6c"
+    },
+    {
+      "path": "configs/expanded-development-pairs.json",
+      "sha256": "58f3567d3511a11d0f1f1ac4282ca48e4ead5c721b737d9857d5e4bc34e37172"
+    },
+    {
+      "path": "configs/expanded-final-holdout-pairs.json",
+      "sha256": "274ec232ae20964955e90d140df19fa590fbbb3f9b1dba42c81d7bb51753e2d0"
+    },
+    {
+      "path": "configs/changelog-sources.json",
+      "sha256": "6baf4e25163fcbb647de5ea846c5680ce2b2e1362f39e1a643c1ce161a76bd23"
+    },
+    {
+      "path": "outputs/changelog-catalog-expanded-v1.2.0.jsonl",
+      "sha256": "c20aa301372992187d6ff26d71fe5c32949660801f0d41c1d57138838b13b1a6"
+    },
+    {
+      "path": "src/deplab/smoke.py",
+      "sha256": "cb77097aa67c6b9aa364f386e1ec5247edeff54caa5e79540e52b9d1528b23af"
+    }
+  ]
+}

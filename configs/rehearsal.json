@@ -1,0 +1,42 @@
+{
+  "description": "Six-run single-worker EC2 rehearsal. These become evidence only when the runner records measured=true.",
+  "experiments": [
+    {
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64"
+    },
+    {
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64"
+    },
+    {
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64"
+    },
+    {
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64"
+    },
+    {
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64"
+    },
+    {
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64"
+    }
+  ]
+}
+

@@ -1,0 +1,11 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Untouched final-evaluation families. Do not run or inspect these outcomes until the model and threshold are frozen.",
+  "platform": "linux_x86_64",
+  "python_versions": ["3.10", "3.11", "3.12"],
+  "families": [
+    {"name": "httpx-httpcore", "package_a": "httpx", "package_b": "httpcore"},
+    {"name": "django-asgiref", "package_a": "django", "package_b": "asgiref"},
+    {"name": "cryptography-pyopenssl", "package_a": "cryptography", "package_b": "pyopenssl"}
+  ]
+}

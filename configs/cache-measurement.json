@@ -1,0 +1,18 @@
+{
+  "description": "Two-experiment cold/warm instrumentation check on one EC2 worker.",
+  "experiments": [
+    {
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64"
+    },
+    {
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64"
+    }
+  ]
+}
+

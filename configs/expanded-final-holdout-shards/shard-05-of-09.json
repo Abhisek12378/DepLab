@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs\\expanded-final-holdout-matrix.json",
+  "shard_index": 5,
+  "shard_count": 9,
+  "experiments": [
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.2.16",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==3.2.25",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.0.10",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.1.13",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==4.2.25",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.0.14",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.3.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.5.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.6.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.7.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.8.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.9.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.10.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.11.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "django-asgiref",
+      "package_a": "django==5.1.15",
+      "package_b": "asgiref==3.12.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

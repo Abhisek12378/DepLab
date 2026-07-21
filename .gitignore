@@ -1,0 +1,51 @@
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+work/*
+!work/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Frontend dependencies and local caches
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+*.tsbuildinfo
+
+# Trained models, embeddings, checkpoints, and large generated datasets
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.npy
+*.npz
+*.parquet
+
+# Private credentials and local tooling state
+*.pem
+*.key
+*.p12
+*.pfx
+.agents/
+.codex/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

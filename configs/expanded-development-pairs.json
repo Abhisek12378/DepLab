@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Development families whose outcomes may be inspected and used for feature/model development.",
+  "platform": "linux_x86_64",
+  "python_versions": ["3.10", "3.11", "3.12"],
+  "families": [
+    {"name": "numpy-pandas", "package_a": "numpy", "package_b": "pandas"},
+    {"name": "numpy-scipy", "package_a": "numpy", "package_b": "scipy"},
+    {"name": "numpy-scikit-learn", "package_a": "numpy", "package_b": "scikit-learn"},
+    {"name": "scipy-scikit-learn", "package_a": "scipy", "package_b": "scikit-learn"},
+    {"name": "pandas-scikit-learn", "package_a": "pandas", "package_b": "scikit-learn"},
+    {"name": "numpy-matplotlib", "package_a": "numpy", "package_b": "matplotlib"},
+    {"name": "numpy-numba", "package_a": "numpy", "package_b": "numba"},
+    {"name": "numpy-xarray", "package_a": "numpy", "package_b": "xarray"},
+    {"name": "pandas-xarray", "package_a": "pandas", "package_b": "xarray"},
+    {"name": "numpy-pillow", "package_a": "numpy", "package_b": "pillow"},
+    {"name": "matplotlib-pillow", "package_a": "matplotlib", "package_b": "pillow"},
+    {"name": "requests-urllib3", "package_a": "requests", "package_b": "urllib3"},
+    {"name": "flask-werkzeug", "package_a": "flask", "package_b": "werkzeug"},
+    {"name": "flask-jinja2", "package_a": "flask", "package_b": "jinja2"},
+    {"name": "jinja2-markupsafe", "package_a": "jinja2", "package_b": "markupsafe"}
+  ]
+}

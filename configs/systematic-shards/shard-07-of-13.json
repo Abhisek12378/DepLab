@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs\\systematic-matrix.json",
+  "shard_index": 7,
+  "shard_count": 13,
+  "experiments": [
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.28.2",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.31.0",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.33.1",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.34.2",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==2.5.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.25.1",
+      "package_b": "urllib3==2.7.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==1.26.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==1.26.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==2.0.7",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==2.1.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.26.0",
+      "package_b": "urllib3==2.3.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

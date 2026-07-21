@@ -1,0 +1,77 @@
+{
+  "audited_at": "2026-07-19",
+  "coverage_order": ["3.10", "3.11", "3.12"],
+  "description": "Held-out versions of the ten training packages, selected before observing experiment outcomes for a blind external evaluation.",
+  "packages": {
+    "flask": {
+      "role": "web framework; Werkzeug API boundary consumer",
+      "versions": [
+        {"version": "2.2.3", "coverage": [true, true, true]},
+        {"version": "3.0.2", "coverage": [true, true, true]}
+      ]
+    },
+    "jinja2": {
+      "role": "template engine; MarkupSafe API consumer",
+      "versions": [
+        {"version": "3.0.2", "coverage": [true, true, true]},
+        {"version": "3.1.0", "coverage": [true, true, true]}
+      ]
+    },
+    "markupsafe": {
+      "role": "compiled text-safety helper with removed API boundaries",
+      "versions": [
+        {"version": "2.1.4", "coverage": [true, true, true]},
+        {"version": "3.0.1", "coverage": [true, true, true]}
+      ]
+    },
+    "numpy": {
+      "role": "central compiled numerical ABI provider",
+      "versions": [
+        {"version": "1.25.2", "coverage": [true, true, false]},
+        {"version": "2.1.3", "coverage": [true, true, true]}
+      ]
+    },
+    "pandas": {
+      "role": "compiled NumPy consumer with changing dependency bounds",
+      "versions": [
+        {"version": "1.4.4", "coverage": [true, false, false]},
+        {"version": "2.2.2", "coverage": [true, true, true]}
+      ]
+    },
+    "requests": {
+      "role": "HTTP client with urllib3 dependency-bound changes",
+      "versions": [
+        {"version": "2.27.1", "coverage": [true, true, true]},
+        {"version": "2.32.4", "coverage": [true, true, true]}
+      ]
+    },
+    "scikit-learn": {
+      "role": "compiled NumPy/SciPy consumer",
+      "versions": [
+        {"version": "1.2.2", "coverage": [true, true, false]},
+        {"version": "1.6.1", "coverage": [true, true, true]}
+      ]
+    },
+    "scipy": {
+      "role": "compiled NumPy ABI consumer with explicit upper bounds",
+      "versions": [
+        {"version": "1.10.1", "coverage": [true, true, false]},
+        {"version": "1.14.1", "coverage": [true, true, true]}
+      ]
+    },
+    "urllib3": {
+      "role": "HTTP transport dependency across the 1.x to 2.x boundary",
+      "versions": [
+        {"version": "1.26.20", "coverage": [true, true, true]},
+        {"version": "2.2.3", "coverage": [true, true, true]}
+      ]
+    },
+    "werkzeug": {
+      "role": "web utility layer with APIs consumed by Flask",
+      "versions": [
+        {"version": "2.2.2", "coverage": [true, true, true]},
+        {"version": "3.0.3", "coverage": [true, true, true]}
+      ]
+    }
+  }
+}

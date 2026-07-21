@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0.0-draft",
+  "coverage_order": ["3.10", "3.11", "3.12"],
+  "description": "Candidate releases for the 4,000-5,000 row DepLab expansion. Wheel coverage is added by the scope audit before matrix generation.",
+  "packages": {
+    "flask": {"role": "web framework and dependency consumer", "versions": ["1.1.4", "2.0.3", "2.1.3", "2.2.3", "2.2.5", "2.3.3", "3.0.2", "3.0.3", "3.1.1", "3.1.3"]},
+    "jinja2": {"role": "template engine and MarkupSafe consumer", "versions": ["2.11.3", "3.0.1", "3.0.2", "3.0.3", "3.1.0", "3.1.2", "3.1.3", "3.1.4", "3.1.5", "3.1.6"]},
+    "markupsafe": {"role": "compiled text-safety helper", "versions": ["2.0.1", "2.1.0", "2.1.1", "2.1.2", "2.1.3", "2.1.4", "2.1.5", "3.0.1", "3.0.2", "3.0.3"]},
+    "numpy": {"role": "central numerical ABI provider", "versions": ["1.21.6", "1.23.5", "1.24.4", "1.25.2", "1.26.4", "2.0.2", "2.1.3", "2.2.6", "2.4.4", "2.5.1"]},
+    "pandas": {"role": "compiled NumPy consumer", "versions": ["1.3.5", "1.4.4", "1.5.3", "2.0.3", "2.1.1", "2.1.4", "2.2.2", "2.2.3", "2.3.3", "3.0.3"]},
+    "requests": {"role": "HTTP client and urllib3 consumer", "versions": ["2.25.1", "2.26.0", "2.27.1", "2.28.2", "2.30.0", "2.31.0", "2.32.3", "2.32.4", "2.33.1", "2.34.2"]},
+    "scikit-learn": {"role": "compiled NumPy and SciPy consumer", "versions": ["1.0.2", "1.1.3", "1.2.2", "1.3.2", "1.4.2", "1.5.2", "1.6.0", "1.6.1", "1.7.2", "1.9.0"]},
+    "scipy": {"role": "compiled NumPy ABI consumer", "versions": ["1.7.3", "1.9.3", "1.10.1", "1.11.4", "1.12.0", "1.13.1", "1.14.1", "1.15.3", "1.17.1", "1.18.0"]},
+    "urllib3": {"role": "HTTP transport dependency", "versions": ["1.26.5", "1.26.18", "1.26.20", "2.0.7", "2.1.0", "2.2.1", "2.2.3", "2.3.0", "2.5.0", "2.7.0"]},
+    "werkzeug": {"role": "web utility layer and Flask provider", "versions": ["2.0.3", "2.1.2", "2.2.2", "2.2.3", "2.3.0", "2.3.8", "3.0.3", "3.0.6", "3.1.3", "3.1.8"]},
+    "matplotlib": {"role": "compiled NumPy consumer and Pillow image consumer", "versions": ["3.5.3", "3.6.3", "3.7.5", "3.8.0", "3.8.4", "3.9.0", "3.9.4", "3.10.0", "3.10.8", "3.11.1"]},
+    "numba": {"role": "JIT compiler with strict NumPy compatibility", "versions": ["0.56.4", "0.57.1", "0.58.1", "0.59.1", "0.60.0", "0.61.2", "0.62.1", "0.63.1", "0.64.0", "0.66.0"]},
+    "xarray": {"role": "labelled-array library consuming NumPy and pandas", "versions": ["2022.6.0", "2022.12.0", "2023.6.0", "2023.12.0", "2024.3.0", "2024.10.0", "2025.1.2", "2025.6.1", "2025.12.0", "2026.7.0"]},
+    "pillow": {"role": "compiled imaging library", "versions": ["9.0.1", "9.2.0", "9.5.0", "10.0.1", "10.2.0", "10.4.0", "11.0.0", "11.3.0", "12.0.0", "12.3.0"]},
+    "httpx": {"role": "holdout HTTP client consuming httpcore", "versions": ["0.21.3", "0.22.0", "0.23.3", "0.24.1", "0.25.2", "0.26.0", "0.27.0", "0.27.2", "0.28.0", "0.28.1"]},
+    "httpcore": {"role": "holdout HTTP transport provider", "versions": ["0.14.7", "0.15.0", "0.16.3", "0.17.3", "0.18.0", "1.0.0", "1.0.3", "1.0.5", "1.0.7", "1.0.9"]},
+    "django": {"role": "holdout web framework consuming asgiref", "versions": ["3.2.25", "4.0.10", "4.1.13", "4.2.25", "5.0.14", "5.1.15", "5.2.16", "6.0", "6.0.3", "6.0.7"]},
+    "asgiref": {"role": "holdout ASGI utility provider", "versions": ["3.3.4", "3.4.1", "3.5.2", "3.6.0", "3.7.2", "3.8.1", "3.9.2", "3.10.0", "3.11.1", "3.12.1"]},
+    "cryptography": {"role": "holdout compiled OpenSSL binding provider", "versions": ["38.0.4", "39.0.2", "40.0.2", "41.0.7", "42.0.8", "43.0.3", "44.0.3", "45.0.7", "46.0.7", "49.0.0"]},
+    "pyopenssl": {"role": "holdout cryptography API consumer", "versions": ["21.0.0", "22.0.0", "22.1.0", "23.0.0", "23.2.0", "24.0.0", "24.2.1", "25.0.0", "25.3.0", "26.3.0"]}
+  }
+}

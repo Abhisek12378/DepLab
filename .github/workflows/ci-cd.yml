@@ -1,0 +1,142 @@
+name: DepLab CI and EC2 deployment
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deplab-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.11"
+  NODE_VERSION: "22"
+
+jobs:
+  quality:
+    name: Test backend and frontend
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install backend test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[api]" numpy pandas
+
+      - name: Reject private artifacts and oversized files
+        run: python scripts/check_public_repository.py
+
+      - name: Run source-only backend tests
+        run: |
+          python -m unittest -v \
+            tests.test_advanced_models \
+            tests.test_api \
+            tests.test_artifacts \
+            tests.test_batch \
+            tests.test_catalog \
+            tests.test_changelogs \
+            tests.test_changelog_text \
+            tests.test_conversations \
+            tests.test_external_test_manifest \
+            tests.test_matrix \
+            tests.test_measurements \
+            tests.test_modernbert_hybrid \
+            tests.test_pilot_manifest \
+            tests.test_pypi \
+            tests.test_result_repair \
+            tests.test_runner \
+            tests.test_scope_audit \
+            tests.test_shards \
+            tests.test_storage \
+            tests.test_wheels
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm ci --prefix frontend
+
+      - name: Type-check frontend
+        run: npm run typecheck --prefix frontend
+
+      - name: Build frontend
+        run: npm run build --prefix frontend
+
+  deploy:
+    name: Deploy main to EC2
+    needs: quality
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.EC2_DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    environment: production
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Build deployable frontend
+        run: |
+          npm ci --prefix frontend
+          npm run build --prefix frontend
+
+      - name: Build source-only release archive
+        run: |
+          mkdir deployment-bundle
+          git archive HEAD | tar -x -C deployment-bundle
+          cp -R frontend/dist deployment-bundle/frontend/dist
+          tar -czf deplab-release.tgz -C deployment-bundle .
+
+      - name: Configure verified SSH connection
+        env:
+          EC2_SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+          EC2_KNOWN_HOSTS: ${{ secrets.EC2_KNOWN_HOSTS }}
+        run: |
+          test -n "$EC2_SSH_PRIVATE_KEY"
+          test -n "$EC2_KNOWN_HOSTS"
+          install -d -m 700 "$HOME/.ssh"
+          printf '%s\n' "$EC2_SSH_PRIVATE_KEY" > "$HOME/.ssh/deplab_ec2"
+          printf '%s\n' "$EC2_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
+          chmod 600 "$HOME/.ssh/deplab_ec2" "$HOME/.ssh/known_hosts"
+
+      - name: Upload and activate release
+        env:
+          EC2_HOST: ${{ secrets.EC2_HOST }}
+          EC2_USER: ${{ secrets.EC2_USER }}
+        run: |
+          test -n "$EC2_HOST"
+          test -n "$EC2_USER"
+          release_id="${GITHUB_SHA}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          scp -i "$HOME/.ssh/deplab_ec2" \
+            deplab-release.tgz deploy/ec2/deploy_release.sh \
+            "${EC2_USER}@${EC2_HOST}:/tmp/"
+          ssh -i "$HOME/.ssh/deplab_ec2" "${EC2_USER}@${EC2_HOST}" \
+            "sudo bash /tmp/deploy_release.sh /tmp/deplab-release.tgz '${release_id}'"
+
+      - name: Remove local SSH material
+        if: always()
+        run: rm -f "$HOME/.ssh/deplab_ec2" "$HOME/.ssh/known_hosts"
