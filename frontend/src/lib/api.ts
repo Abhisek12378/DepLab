@@ -2,6 +2,16 @@ import type { Conversation, CreateConversationInput, Exchange } from "../types";
 
 const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? "").replace(/\/$/, "");
 const REQUEST_TIMEOUT_MS = 60_000;
+let messageIdSequence = 0;
+
+function createClientMessageId(): string {
+  const cryptoApi = globalThis.crypto;
+  if (typeof cryptoApi?.randomUUID === "function") return cryptoApi.randomUUID();
+
+  messageIdSequence += 1;
+  // This token supports retry deduplication; it is not an authentication secret.
+  return `client-${Date.now().toString(36)}-${messageIdSequence.toString(36)}`;
+}
 
 interface ApiErrorPayload {
   error?: {
@@ -74,7 +84,7 @@ export const api = {
   sendMessage(id: string, content: string): Promise<Exchange> {
     return apiRequest(`/api/v1/conversations/${encodeURIComponent(id)}/messages`, {
       method: "POST",
-      body: JSON.stringify({ content, client_message_id: crypto.randomUUID() }),
+      body: JSON.stringify({ content, client_message_id: createClientMessageId() }),
     });
   },
   deleteConversation(id: string): Promise<void> {
