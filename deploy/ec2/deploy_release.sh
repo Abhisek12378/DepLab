@@ -45,6 +45,9 @@ fi
 
 mkdir -p "${RELEASES_ROOT}" "${RELEASE_PATH}"
 tar -xzf "${ARCHIVE_PATH}" -C "${RELEASE_PATH}" --no-same-owner
+chown -R root:root "${RELEASE_PATH}"
+chmod -R go-w "${RELEASE_PATH}"
+rm -rf "${RELEASE_PATH}/outputs"
 ln -s "${SHARED_ROOT}/outputs" "${RELEASE_PATH}/outputs"
 ln -s "${SHARED_ROOT}/.env" "${RELEASE_PATH}/.env"
 
