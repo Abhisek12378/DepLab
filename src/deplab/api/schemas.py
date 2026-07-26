@@ -14,7 +14,15 @@ class StrictModel(BaseModel):
 
 class CreateConversationRequest(StrictModel):
     requirements_text: str = Field(min_length=1, max_length=100_000)
-    python_version: Literal["3.10", "3.11", "3.12"]
+    python_version: Literal[
+        "3.8",
+        "3.9",
+        "3.10",
+        "3.11",
+        "3.12",
+        "3.13",
+        "3.14",
+    ]
     platform: Literal["linux-x86_64"] = "linux-x86_64"
 
 
