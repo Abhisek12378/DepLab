@@ -111,10 +111,22 @@ export interface ChatMessage {
   result: AdvisoryResult | null;
 }
 
+export const SUPPORTED_PYTHON_VERSIONS = [
+  "3.8",
+  "3.9",
+  "3.10",
+  "3.11",
+  "3.12",
+  "3.13",
+  "3.14",
+] as const;
+
+export type SupportedPythonVersion = (typeof SUPPORTED_PYTHON_VERSIONS)[number];
+
 export interface Conversation {
   id: string;
   requirements_text: string;
-  python_version: "3.10" | "3.11" | "3.12";
+  python_version: SupportedPythonVersion;
   platform: "linux-x86_64";
   created_at: string;
   expires_at: string;
