@@ -89,6 +89,10 @@ done
 
 if [[ "${healthy}" != "true" ]]; then
   echo "Health check failed; restoring the previous release." >&2
+  echo "DepLab service status for the failed release:" >&2
+  systemctl status deplab-api.service --no-pager --full >&2 || true
+  echo "Recent DepLab service logs:" >&2
+  journalctl -u deplab-api.service -n 80 --no-pager >&2 || true
   if [[ -n "${previous_release}" && -d "${previous_release}" ]]; then
     ln -s "${previous_release}" "${APP_ROOT}/current.rollback"
     mv -Tf "${APP_ROOT}/current.rollback" "${CURRENT_LINK}"
