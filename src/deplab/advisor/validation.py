@@ -14,8 +14,8 @@ def canonical_name(value: str) -> str:
 
 def validate_intent(request: AnalysisRequest, intent: ParsedIntent) -> list[str]:
     errors: list[str] = []
-    if not re.fullmatch(r"3\.(10|11|12)", request.python_version.strip()):
-        errors.append("The current model supports Python 3.10, 3.11, and 3.12 only.")
+    if not re.fullmatch(r"3\.(8|9|10|11|12|13|14)", request.python_version.strip()):
+        errors.append("The current model supports Python 3.8 through 3.14 only.")
     if not intent.requirements:
         errors.append("No installable package requirement was found.")
         return errors
