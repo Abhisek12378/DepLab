@@ -62,7 +62,7 @@ chown -R root:root "${RELEASE_PATH}"
 chmod -R go-w "${RELEASE_PATH}"
 rm -rf "${RELEASE_PATH}/outputs"
 ln -s "${SHARED_ROOT}/outputs" "${RELEASE_PATH}/outputs"
-ln -s "${SHARED_ROOT}/.env" "${RELEASE_PATH}/.env"
+# systemd loads the protected shared environment file; releases must not link it.
 
 python3 -m venv "${RELEASE_PATH}/.venv"
 "${RELEASE_PATH}/.venv/bin/python" -m pip install --disable-pip-version-check --upgrade pip
