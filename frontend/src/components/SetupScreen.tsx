@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useRef, useState } from "react";
 import { ArrowRight, FileCode2, LockKeyhole, Sparkles, Upload } from "lucide-react";
-import type { CreateConversationInput } from "../types";
+import { SUPPORTED_PYTHON_VERSIONS, type CreateConversationInput } from "../types";
 import { Brand } from "./Brand";
 
 const SAMPLE = "numpy==1.26.4\npandas==2.1.4\nscipy==1.11.4\nrequests==2.31.0";
@@ -73,9 +73,9 @@ export function SetupScreen({ busy, error, onStart }: SetupScreenProps) {
             <label className="field compact-field">
               <span>Python version</span>
               <select value={pythonVersion} onChange={(event) => setPythonVersion(event.target.value as CreateConversationInput["python_version"])}>
-                <option value="3.10">Python 3.10</option>
-                <option value="3.11">Python 3.11</option>
-                <option value="3.12">Python 3.12</option>
+                {SUPPORTED_PYTHON_VERSIONS.map((version) => (
+                  <option key={version} value={version}>Python {version}</option>
+                ))}
               </select>
             </label>
             <div className="field compact-field"><span>Target platform</span><div className="static-input">Linux · x86_64</div></div>
