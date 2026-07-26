@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-validation-matrix-v3.0.0.json",
+  "shard_index": 27,
+  "shard_count": 35,
+  "experiments": [
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.1.1",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.3.1",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==4.4.5",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.0.2",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.1.2",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.2.4",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.3.4",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==3.5.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==3.5.0.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==3.6.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==3.6.3.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==3.6.4.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.0.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.0.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.1.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-billiard",
+      "package_a": "celery==5.5.2",
+      "package_b": "billiard==4.2.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

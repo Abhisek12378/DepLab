@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-final-test-matrix-v3.0.0.json",
+  "shard_index": 28,
+  "shard_count": 32,
+  "experiments": [
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.11.12",
+      "package_b": "yarl==1.24.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==0.1.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==0.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.9.7",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.10.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.13.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.15.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.17.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.20.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.3",
+      "package_b": "yarl==1.24.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==0.1.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==0.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.9.7",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.10.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.13.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.15.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.17.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.20.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.9",
+      "package_b": "yarl==1.24.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==0.1.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==0.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.9.7",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.10.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.13.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.15.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.17.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.20.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.12.14",
+      "package_b": "yarl==1.24.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==0.1.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==0.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.9.7",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.10.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.13.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.15.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.17.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.20.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.24.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==0.1.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==0.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.9.7",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.10.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.13.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.15.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.17.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.20.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.24.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==0.1.4",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==0.3.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.9.7",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.10.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.13.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.15.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.17.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.20.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.13.4",
+      "package_b": "yarl==1.24.5",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==0.1.4",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==0.3.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.9.7",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.10.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.13.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.15.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.17.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.20.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "aiohttp-yarl",
+      "package_a": "aiohttp==3.14.3",
+      "package_b": "yarl==1.24.5",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==4.6.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==4.7.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==4.7.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==4.7.6",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==5.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==6.0.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==6.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.1.4",
+      "package_b": "multidict==6.0.5",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==4.6.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==4.7.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==4.7.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==4.7.6",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==5.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==6.0.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==6.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==0.3.2",
+      "package_b": "multidict==6.0.5",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==4.6.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==4.7.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==4.7.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==4.7.6",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==5.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==6.0.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==6.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.4.1",
+      "package_b": "multidict==6.0.5",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==4.6.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==4.7.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==4.7.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==4.7.6",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==5.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==6.0.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==6.0.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.6.2",
+      "package_b": "multidict==6.0.5",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.8.1",
+      "package_b": "multidict==4.6.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.8.1",
+      "package_b": "multidict==4.7.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.8.1",
+      "package_b": "multidict==4.7.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "yarl-multidict",
+      "package_a": "yarl==1.8.1",
+      "package_b": "multidict==4.7.6",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

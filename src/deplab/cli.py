@@ -14,8 +14,12 @@ from .models import ExperimentSpec, PackagePin
 from .pypi import PyPIClient, PyPIError
 from .runner import ExperimentRunner
 from .scope_audit import ScopeAuditError, audit_scope
+from .scope_plan import ScopePlanError, build_scope_draft
 from .shards import ShardError, shard_manifest
 from .storage import append_jsonl, completed_ids
+
+
+PYTHON_CHOICES = ("3.8", "3.9", "3.10", "3.11", "3.12", "3.13", "3.14")
 
 
 def _pin(value: str) -> PackagePin:
@@ -33,7 +37,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     inspect_parser = subparsers.add_parser("inspect", help="collect PyPI metadata and wheel eligibility")
     inspect_parser.add_argument("package", type=_pin)
-    inspect_parser.add_argument("--python", required=True, choices=("3.10", "3.11", "3.12"))
+    inspect_parser.add_argument("--python", required=True, choices=PYTHON_CHOICES)
 
     catalog_parser = subparsers.add_parser("catalog", help="collect the audited PyPI package scope")
     catalog_parser.add_argument("--scope", type=Path, required=True)
@@ -54,6 +58,12 @@ def build_parser() -> argparse.ArgumentParser:
     scope_audit_parser.add_argument("--input", type=Path, required=True)
     scope_audit_parser.add_argument("--output", type=Path, required=True)
 
+    scope_plan_parser = subparsers.add_parser(
+        "scope-plan", help="select a reproducible, stable release scope from a large-dataset plan"
+    )
+    scope_plan_parser.add_argument("--plan", type=Path, required=True)
+    scope_plan_parser.add_argument("--output", type=Path, required=True)
+
     matrix_parser = subparsers.add_parser(
         "matrix", help="generate the systematic wheel-eligible experiment matrix"
     )
@@ -71,7 +81,7 @@ def build_parser() -> argparse.ArgumentParser:
     run_parser = subparsers.add_parser("run", help="run one isolated, wheel-only experiment")
     run_parser.add_argument("package_a", type=_pin)
     run_parser.add_argument("package_b", type=_pin)
-    run_parser.add_argument("--python", required=True, choices=("3.10", "3.11", "3.12"))
+    run_parser.add_argument("--python", required=True, choices=PYTHON_CHOICES)
     run_parser.add_argument("--output", type=Path, default=Path("outputs/results.jsonl"))
     run_parser.add_argument("--run-root", type=Path, default=Path("work/runs"))
     run_parser.add_argument("--timeout", type=float, default=180.0)
@@ -131,6 +141,11 @@ def main(argv: list[str] | None = None) -> int:
             print(json.dumps(asdict(summary), indent=2, sort_keys=True))
             return 0
 
+        if args.command == "scope-plan":
+            summary = build_scope_draft(args.plan, args.output, client=client)
+            print(json.dumps(asdict(summary), indent=2, sort_keys=True))
+            return 0
+
         if args.command == "matrix":
             summary = generate_matrix(args.scope, args.pairs, args.output)
             print(json.dumps(asdict(summary), indent=2, sort_keys=True))
@@ -182,6 +197,7 @@ def main(argv: list[str] | None = None) -> int:
         ScopeError,
         ChangelogError,
         ScopeAuditError,
+        ScopePlanError,
         MatrixError,
         ShardError,
         ValueError,

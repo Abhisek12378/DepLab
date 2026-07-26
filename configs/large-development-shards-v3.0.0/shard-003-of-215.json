@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 3,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.1.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.2.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.3.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==1.5.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.1.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.2.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.3.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==3.0.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==3.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==3.0.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==1.5.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.1.4",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.2.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.2.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.3.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==3.0.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==3.0.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==3.0.5",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==1.26.4",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.0.2",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.4",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.4.6",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.0",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==2.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==2.1.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==2.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==2.3.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==3.0.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.5.1",
+      "package_b": "pandas==3.0.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.2.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==2.3.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==3.0.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==3.0.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.1.3",
+      "package_b": "pandas==3.0.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.2.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==2.3.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-pandas",
+      "package_a": "numpy==2.2.6",
+      "package_b": "pandas==3.0.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

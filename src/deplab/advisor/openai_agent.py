@@ -123,10 +123,15 @@ class OpenAIAnswerComposer:
                 "evidence distinction exactly. For evidence_type published_constraint_conflict, "
                 "say the combination WILL NOT RESOLVE under the named published requirement; "
                 "do not call that fact a prediction and include the blocking specifier. For "
-                "evidence_type model_prediction, say DepLab predicts the combination MAY fail. "
+                "a resolver check with resolvable false, say uv COULD NOT RESOLVE the complete "
+                "environment. For a resolver check with resolvable true, say uv VERIFIED "
+                "RESOLUTION, but never say packages were installed. For evidence_type "
+                "post_install_prediction, say DepLab predicts the combination MAY fail after "
+                "installation and describe the stage only as likely. The structured score is "
+                "used only to rank candidates and must never be presented as verification. "
                 "Present achieves_requested_change first, keeps_current_version second, and "
                 "clearly label downgrade_fallback as not achieving the user's goal. End by "
-                "saying no environment was installed. Use only the JSON facts."
+                "saying no packages were installed or executed. Use only the JSON facts."
             ),
             input=json.dumps(result_payload, ensure_ascii=False),
         )

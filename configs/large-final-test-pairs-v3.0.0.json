@@ -1,0 +1,41 @@
+{
+  "schema_version": "3.0.0",
+  "description": "Package-disjoint final-test families whose outcomes must remain sealed.",
+  "platform": "linux_x86_64",
+  "python_versions": [
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ],
+  "families": [
+    {
+      "name": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy",
+      "package_b": "greenlet"
+    },
+    {
+      "name": "pytest-pluggy",
+      "package_a": "pytest",
+      "package_b": "pluggy"
+    },
+    {
+      "name": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools",
+      "package_b": "protobuf"
+    },
+    {
+      "name": "aiohttp-yarl",
+      "package_a": "aiohttp",
+      "package_b": "yarl"
+    },
+    {
+      "name": "yarl-multidict",
+      "package_a": "yarl",
+      "package_b": "multidict"
+    }
+  ]
+}

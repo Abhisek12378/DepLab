@@ -15,13 +15,31 @@ EC2 keeps private runtime material outside each source release:
     outputs/
 ```
 
-`shared/outputs/` must contain these private files before deployment:
+`shared/models/current/` must point to an immutable, validated model bundle
+containing:
 
 ```text
-deplab-expanded-development-v2.0.0/features.csv
-deplab-expanded-weighted-logistic-v2.0.0/model.json
-deplab-advanced-model-comparison-v3.0.0/model.json
-deplab-hybrid-validation-v3.0.0/metrics.json
+outputs/deplab-large-features-v3.0.0/development-features.csv
+outputs/deplab-large-features-v3.0.0/validation-inputs.csv
+outputs/deplab-large-candidate-freeze-v3.0.0/candidate-structured_weighted_logistic.json
+outputs/deplab-large-candidate-freeze-v3.0.0/candidate-modernbert_stage_aware_hybrid.json
+outputs/large-release-modernbert-v3.0.0.jsonl
+```
+
+The API uses the structured model only to rank candidate environments. It asks
+`uv pip compile` to verify dependency resolution for a bounded number of top
+candidates, then uses the frozen ModernBERT post-install heads to predict import
+and smoke-test risk. Request-time checks never install packages or execute their
+code.
+
+The shared environment must contain:
+
+```text
+DEPLAB_MODEL_ROOT=/opt/deplab/shared/models/current
+DEPLAB_UV_COMMAND=/usr/local/bin/uv
+DEPLAB_UV_CACHE_DIR=/opt/deplab/shared/uv-cache
+DEPLAB_RESOLVER_TIMEOUT_SECONDS=15
+DEPLAB_RESOLVER_MAXIMUM_CONCURRENCY=2
 ```
 
 The GitHub `production` environment needs these secrets:

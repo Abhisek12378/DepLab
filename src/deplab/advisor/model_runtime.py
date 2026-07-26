@@ -139,17 +139,23 @@ class FeatureTable:
     def __init__(self, paths: Iterable[Path]) -> None:
         self.rows: list[dict[str, str]] = []
         self.index: dict[tuple[str, str, str, str, str], dict[str, str]] = {}
+        self.supported_pairs: set[tuple[str, str, str]] = set()
         for path in paths:
             with path.open(encoding="utf-8", newline="") as file:
                 for row in csv.DictReader(file):
+                    left = canonical_name(row["package_a_name"])
+                    right = canonical_name(row["package_b_name"])
                     key = (
-                        canonical_name(row["package_a_name"]),
+                        left,
                         row["package_a_version"],
-                        canonical_name(row["package_b_name"]),
+                        right,
                         row["package_b_version"],
                         row["python_version"],
                     )
                     self.index.setdefault(key, row)
+                    self.supported_pairs.add(
+                        (*sorted((left, right)), row["python_version"])
+                    )
                     self.rows.append(row)
 
     def find(
@@ -212,7 +218,10 @@ class FeatureTable:
         return result
 
     def has_family(self, target: str, related: str, python_version: str) -> bool:
-        return bool(self.pair_rows(target, None, related, python_version))
+        left, right = sorted(
+            (canonical_name(target), canonical_name(related))
+        )
+        return (left, right, python_version) in self.supported_pairs
 
     @staticmethod
     def published_constraints_allow(row: dict[str, str]) -> bool:

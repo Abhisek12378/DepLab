@@ -23,7 +23,10 @@ class ResultRepairSummary:
     output: str
 
 
-def repair_result_file(path: Path) -> ResultRepairSummary:
+def repair_result_file(
+    path: Path,
+    backup_path: Path | None = None,
+) -> ResultRepairSummary:
     rows = []
     try:
         for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
@@ -58,7 +61,12 @@ def repair_result_file(path: Path) -> ResultRepairSummary:
         raise ResultRepairError("repair left an infrastructure failure in the output")
 
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    backup = path.with_name(f"{path.stem}.backup-{timestamp}{path.suffix}")
+    backup = backup_path or path.with_name(
+        f"{path.stem}.backup-{timestamp}{path.suffix}"
+    )
+    if backup.resolve() == path.resolve():
+        raise ResultRepairError("backup path must differ from the result path")
+    backup.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".repairing")
     shutil.copy2(path, backup)
     with temporary.open("w", encoding="utf-8", newline="\n") as file:

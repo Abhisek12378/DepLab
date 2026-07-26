@@ -57,7 +57,7 @@ export function SetupScreen({ busy, error, onStart }: SetupScreenProps) {
             Ask DepLab what may break, why it matters, and which complete environment is the safest next move.
           </p>
           <div className="proof-row" aria-label="DepLab evidence types">
-            <div><strong>4,109</strong><span>measured combinations</span></div>
+            <div><strong>21,490</strong><span>training combinations</span></div>
             <div><strong>2 signals</strong><span>constraints + ML risk</span></div>
             <div><strong>Clear</strong><span>fact vs prediction</span></div>
           </div>
@@ -98,7 +98,7 @@ export function SetupScreen({ busy, error, onStart }: SetupScreenProps) {
             {busy ? "Preparing your workspace…" : "Start dependency analysis"}
             {!busy && <ArrowRight size={17} />}
           </button>
-          <p className="safety-copy">No packages are installed. DepLab reports published facts separately from model predictions.</p>
+          <p className="safety-copy">No packages are installed. uv checks resolution; DepLab predicts post-install risk.</p>
         </form>
       </section>
       <div className="ambient ambient-one" /><div className="ambient ambient-two" />

@@ -58,6 +58,26 @@ class ScopeAuditTests(unittest.TestCase):
             output["packages"]["demo"]["versions"][0]["coverage"],
             [True, True, False],
         )
+        self.assertEqual(
+            output["packages"]["demo"]["versions"][0]["coverage_details"][2]["reason"],
+            "incompatible_wheel_tags",
+        )
+        self.assertEqual(summary.exclusion_counts, {"incompatible_wheel_tags": 2})
+
+    def test_accepts_python_38_through_314(self):
+        draft = {
+            "coverage_order": ["3.8", "3.9", "3.10", "3.11", "3.12", "3.13", "3.14"],
+            "packages": {"demo": {"role": "fixture", "versions": ["1.0.0"]}},
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            input_path = root / "draft.json"
+            output_path = root / "audited.json"
+            input_path.write_text(json.dumps(draft), encoding="utf-8")
+            summary = audit_scope(input_path, output_path, FakeClient())
+            output = json.loads(output_path.read_text(encoding="utf-8"))
+        self.assertEqual(summary.python_targets, 7)
+        self.assertEqual(len(output["packages"]["demo"]["versions"][0]["coverage"]), 7)
 
 
 if __name__ == "__main__":

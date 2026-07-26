@@ -58,6 +58,7 @@ jobs:
             tests.test_modernbert_hybrid \
             tests.test_pilot_manifest \
             tests.test_pypi \
+            tests.test_production_agent \
             tests.test_result_repair \
             tests.test_runner \
             tests.test_scope_audit \

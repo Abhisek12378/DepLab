@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 178,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2023.9.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2023.10.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.2.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.4.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.6.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.8.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.11.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2025.3.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2025.5.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2025.9.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2026.1.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2026.7.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2023.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2023.10.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2024.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2024.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2024.6.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2024.8.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2024.11.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2025.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2025.5.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2025.9.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2026.1.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==2.3.3",
+      "package_b": "dask==2026.7.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2023.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2023.10.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2024.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2024.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2024.6.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2024.8.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2024.11.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2025.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2025.5.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2025.9.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2026.1.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.2",
+      "package_b": "dask==2026.7.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2023.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2023.10.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2024.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2024.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2024.6.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2024.8.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2024.11.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2025.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2025.5.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2025.9.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2026.1.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.3",
+      "package_b": "dask==2026.7.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2023.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2023.10.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.6.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.8.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2024.11.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2025.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2025.5.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2025.9.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2026.1.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-dask",
+      "package_a": "pandas==3.0.5",
+      "package_b": "dask==2026.7.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.4.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.6.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2024.4.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2024.6.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.2.0",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.2.0",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.2.0",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.2.0",
+      "package_b": "distributed==2024.4.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.2.0",
+      "package_b": "distributed==2024.6.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.4.1",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.4.1",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.4.1",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.4.1",
+      "package_b": "distributed==2024.4.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.4.1",
+      "package_b": "distributed==2024.6.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.6.0",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.6.0",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.6.0",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.6.0",
+      "package_b": "distributed==2024.4.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2024.6.0",
+      "package_b": "distributed==2024.6.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.4.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.6.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.8.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2024.11.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2025.3.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2025.5.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2025.9.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2026.1.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.9.0",
+      "package_b": "distributed==2026.7.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2023.9.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2023.11.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "dask-distributed",
+      "package_a": "dask==2023.10.1",
+      "package_b": "distributed==2024.2.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

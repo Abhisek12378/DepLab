@@ -1,0 +1,85 @@
+{
+  "schema_version": "3.0.0",
+  "scope_audit": "outputs/large-dataset-scope-audit-v3.0.0.json",
+  "scope_audit_sha256": "1f4ed32931872b455a2ab33d11a5f121ef13e2b03f50c75c4999ca8a4e4fc34d",
+  "shard_size": 100,
+  "splits": {
+    "development": {
+      "manifest": "configs/large-development-matrix-v3.0.0.json",
+      "output_dir": "configs/large-development-shards-v3.0.0",
+      "experiments": 21490,
+      "shard_size": 100,
+      "shards": 215,
+      "filename_width": 3,
+      "first_shard_size": 100,
+      "last_shard_size": 90,
+      "matrix_sha256": "f3d920f9f9f03096f3b4541ef1f5f85cf190dad935f0702a7e61acf83b4cf89c",
+      "shard_set_sha256": "1813fe1ddc8a163918bf68dbabe529a99f2858d2c91ff749667dddd594dbdefa",
+      "result_output": "outputs/large-development-results-v3.0.0.jsonl"
+    },
+    "validation": {
+      "manifest": "configs/large-validation-matrix-v3.0.0.json",
+      "output_dir": "configs/large-validation-shards-v3.0.0",
+      "experiments": 3432,
+      "shard_size": 100,
+      "shards": 35,
+      "filename_width": 2,
+      "first_shard_size": 100,
+      "last_shard_size": 32,
+      "matrix_sha256": "09981733ec4d20d49a4f4d30a6d8f932fde4c7c007603aaba2048da23cb4b8f1",
+      "shard_set_sha256": "e00c2334fef5e90af9e7d8c8fb35eec2568a426555859a4dc2b349ddb16ab7ec",
+      "result_output": "outputs/large-validation-results-v3.0.0.jsonl"
+    },
+    "final_test": {
+      "manifest": "configs/large-final-test-matrix-v3.0.0.json",
+      "output_dir": "configs/large-final-test-shards-v3.0.0",
+      "experiments": 3158,
+      "shard_size": 100,
+      "shards": 32,
+      "filename_width": 2,
+      "first_shard_size": 100,
+      "last_shard_size": 58,
+      "matrix_sha256": "bf94eaef2577bbc9e0e985adc24b5a290ae6130935356d75c041c123fe0ad71e",
+      "shard_set_sha256": "d3adf145f3172fe3f398e3c3e666d234481433120613b22e00135b48ebca5d63",
+      "result_output": "outputs/large-final-test-results-v3.0.0.jsonl"
+    }
+  },
+  "known_result_sources": [
+    {
+      "path": "outputs/expanded-development-results.jsonl",
+      "rows": 3269,
+      "sha256": "7c32d4291b6b489f697b7b6c0807e66d0e91992ef9d441d031719d515489f0b3"
+    },
+    {
+      "path": "outputs/expanded-final-holdout-results.jsonl",
+      "rows": 840,
+      "sha256": "579531054409d6f3d6f2cdcede0193c6affe082e4ad120372eee03c45800cf2f"
+    }
+  ],
+  "development_seed": {
+    "matrix": "configs/large-development-matrix-v3.0.0.json",
+    "output": "outputs/large-development-results-v3.0.0.jsonl",
+    "known_rows": 4109,
+    "initial_remaining": 17381
+  },
+  "runtime_pilot": {
+    "manifest": "configs/large-runtime-pilot-v3.0.0.json",
+    "experiments": 7,
+    "python_versions": [
+      "3.8",
+      "3.9",
+      "3.10",
+      "3.11",
+      "3.12",
+      "3.13",
+      "3.14"
+    ],
+    "sha256": "55e02bafbdea49655b59efd574ad61260850b348d3db44bd50b5b620abed6447"
+  },
+  "execution_order": [
+    "development",
+    "validation_after_model_pipeline_is_frozen",
+    "final_test_after_model_and_evaluation_are_frozen"
+  ],
+  "final_test_lock": "FROZEN_MODEL_AND_EVALUATION"
+}

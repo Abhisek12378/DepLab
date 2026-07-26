@@ -59,7 +59,43 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(rows), 3)
         self.assertEqual(len(calls), 1)
 
+    def test_collects_python_38_through_314_from_string_version_entry(self) -> None:
+        calls = []
+
+        def fetch(url):
+            calls.append(url)
+            return PAYLOAD
+
+        scope = {
+            "coverage_order": [
+                "3.8",
+                "3.9",
+                "3.10",
+                "3.11",
+                "3.12",
+                "3.13",
+                "3.14",
+            ],
+            "packages": {"demo": {"versions": ["1.0.0"]}},
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            scope_path = root / "scope.json"
+            output = root / "catalog.jsonl"
+            scope_path.write_text(json.dumps(scope), encoding="utf-8")
+            summary = collect_catalog(scope_path, output, PyPIClient(fetch))
+            rows = [
+                json.loads(line)
+                for line in output.read_text(encoding="utf-8").splitlines()
+            ]
+        self.assertEqual(summary.requested, 7)
+        self.assertEqual(summary.collected, 7)
+        self.assertEqual(
+            [row["target"]["python_version"] for row in rows],
+            scope["coverage_order"],
+        )
+        self.assertEqual(len(calls), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
-

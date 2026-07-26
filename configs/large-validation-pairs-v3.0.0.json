@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0.0",
+  "description": "Package-disjoint validation families used only after development is frozen.",
+  "platform": "linux_x86_64",
+  "python_versions": [
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ],
+  "families": [
+    {
+      "name": "boto3-botocore",
+      "package_a": "boto3",
+      "package_b": "botocore"
+    },
+    {
+      "name": "boto3-s3transfer",
+      "package_a": "boto3",
+      "package_b": "s3transfer"
+    },
+    {
+      "name": "celery-kombu",
+      "package_a": "celery",
+      "package_b": "kombu"
+    },
+    {
+      "name": "celery-billiard",
+      "package_a": "celery",
+      "package_b": "billiard"
+    }
+  ]
+}

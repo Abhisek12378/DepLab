@@ -303,3 +303,83 @@ class TwoHeadBoosting:
             "post_install_head": self.post_install.to_dict(),
             "combination": "1 - (1 - p_resolution) * (1 - p_post_install)",
         }
+
+
+@dataclass
+class StageAwareBoosting:
+    resolution: HistogramGradientBoosting
+    import_failure: HistogramGradientBoosting
+    smoke_failure: HistogramGradientBoosting
+
+    @classmethod
+    def fit(
+        cls,
+        matrix: np.ndarray,
+        outcomes: np.ndarray,
+        **model_options: Any,
+    ) -> "StageAwareBoosting":
+        outcomes = outcomes.astype(str)
+        resolution_target = (outcomes == "resolution_failure").astype(int)
+        non_resolution = outcomes != "resolution_failure"
+        import_target = (outcomes[non_resolution] == "import_failure").astype(int)
+        smoke_population = np.isin(outcomes, ["pass", "smoke_test_failure"])
+        smoke_target = (outcomes[smoke_population] == "smoke_test_failure").astype(int)
+
+        resolution = _fit_balanced_head(
+            matrix,
+            resolution_target,
+            model_options,
+            seed_offset=0,
+        )
+        import_failure = _fit_balanced_head(
+            matrix[non_resolution],
+            import_target,
+            model_options,
+            seed_offset=10000,
+        )
+        smoke_failure = _fit_balanced_head(
+            matrix[smoke_population],
+            smoke_target,
+            model_options,
+            seed_offset=20000,
+        )
+        return cls(resolution, import_failure, smoke_failure)
+
+    def predict_components(
+        self, matrix: np.ndarray
+    ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+        return (
+            self.resolution.predict_proba(matrix),
+            self.import_failure.predict_proba(matrix),
+            self.smoke_failure.predict_proba(matrix),
+        )
+
+    def predict_proba(self, matrix: np.ndarray) -> np.ndarray:
+        resolution, imported, smoke = self.predict_components(matrix)
+        return 1.0 - (1.0 - resolution) * (1.0 - imported) * (1.0 - smoke)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "type": "stage_aware_histogram_gradient_boosting",
+            "resolution_head": self.resolution.to_dict(),
+            "import_failure_head": self.import_failure.to_dict(),
+            "smoke_failure_head": self.smoke_failure.to_dict(),
+            "combination": (
+                "1 - (1 - p_resolution) * (1 - p_import) * (1 - p_smoke)"
+            ),
+        }
+
+
+def _fit_balanced_head(
+    matrix: np.ndarray,
+    target: np.ndarray,
+    model_options: dict[str, Any],
+    seed_offset: int,
+) -> HistogramGradientBoosting:
+    options = dict(model_options)
+    options["random_seed"] = int(options.get("random_seed", 20260719)) + seed_offset
+    return HistogramGradientBoosting(**options).fit(
+        matrix,
+        target,
+        balanced_binary_weights(target),
+    )

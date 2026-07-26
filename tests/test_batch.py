@@ -64,6 +64,25 @@ class BatchTests(unittest.TestCase):
         self.assertEqual(specs[0].package_a.requirement, "alpha==1.0")
         self.assertEqual(specs[0].python_version, "3.11")
 
+    def test_loads_full_large_dataset_python_range(self) -> None:
+        experiments = [
+            {
+                "package_a": "alpha==1.0",
+                "package_b": "beta==2.0",
+                "python": version,
+                "platform": "linux_x86_64",
+            }
+            for version in ("3.8", "3.9", "3.10", "3.11", "3.12", "3.13", "3.14")
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "manifest.json"
+            write_manifest(path, experiments)
+            specs = load_manifest(path)
+        self.assertEqual(
+            [spec.python_version for spec in specs],
+            ["3.8", "3.9", "3.10", "3.11", "3.12", "3.13", "3.14"],
+        )
+
     def test_rejects_duplicate_experiment(self) -> None:
         row = {
             "package_a": "alpha==1.0",
@@ -99,4 +118,3 @@ class BatchTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

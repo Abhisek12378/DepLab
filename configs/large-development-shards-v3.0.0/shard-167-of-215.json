@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 167,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.8.29",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.11.41",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.1.2.30",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.3.0.38",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.8.29",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.11.41",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.1.2.30",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.3.0.38",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.26.4",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==2.0.2",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.23.5",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.24.4",
+      "package_b": "opencv-python==5.0.0.93",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.5.4.60",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.8.0.74",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.9.0.80",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.25.2",
+      "package_b": "opencv-python==4.12.0.88",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

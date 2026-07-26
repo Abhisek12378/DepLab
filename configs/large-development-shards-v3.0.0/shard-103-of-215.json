@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 103,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==43.0.3",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==21.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==22.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==44.0.3",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==21.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==22.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==45.0.7",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==21.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==22.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==46.0.7",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==21.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==22.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.0",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==21.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==22.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==48.0.1",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==21.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==22.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==22.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==23.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==23.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==24.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==24.2.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==25.0.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==25.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==26.1.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==26.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "cryptography-pyopenssl",
+      "package_a": "cryptography==49.0.0",
+      "package_b": "pyopenssl==26.3.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.30.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.33.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.36.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.38.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.38.5",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.41.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.121.3",
+      "package_b": "starlette==0.44.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.30.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.33.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.36.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.38.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.38.5",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.41.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.2",
+      "package_b": "starlette==0.44.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.8",
+      "package_b": "starlette==0.30.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.8",
+      "package_b": "starlette==0.33.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.8",
+      "package_b": "starlette==0.36.2",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "fastapi-starlette",
+      "package_a": "fastapi==0.123.8",
+      "package_b": "starlette==0.38.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

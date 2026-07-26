@@ -51,7 +51,7 @@ export function ChatComposer({ busy, showExamples, onSend }: ChatComposerProps) 
         />
         <button type="button" onClick={() => void submit()} disabled={!content.trim() || busy} aria-label="Send message"><ArrowUp size={19} /></button>
       </div>
-      <div className="composer-help"><span><CornerDownLeft size={12} /> Enter to send</span><span>Prediction and published evidence · no runtime install</span></div>
+      <div className="composer-help"><span><CornerDownLeft size={12} /> Enter to send</span><span>uv resolution + post-install prediction · no runtime install</span></div>
     </div>
   );
 }

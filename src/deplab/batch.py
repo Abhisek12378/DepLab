@@ -18,6 +18,17 @@ class ManifestError(ValueError):
     pass
 
 
+SUPPORTED_PYTHON_VERSIONS = {
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14",
+}
+
+
 @dataclass(frozen=True)
 class BatchSummary:
     manifest: str
@@ -49,7 +60,7 @@ def load_manifest(path: Path) -> list[ExperimentSpec]:
             python_version = str(row["python"])
         except KeyError as exc:
             raise ManifestError(f"experiment {index} is missing {exc.args[0]!r}") from exc
-        if python_version not in {"3.10", "3.11", "3.12"}:
+        if python_version not in SUPPORTED_PYTHON_VERSIONS:
             raise ManifestError(f"experiment {index} has unsupported Python {python_version!r}")
         if row.get("platform", "linux_x86_64") != "linux_x86_64":
             raise ManifestError(f"experiment {index} must target linux_x86_64")

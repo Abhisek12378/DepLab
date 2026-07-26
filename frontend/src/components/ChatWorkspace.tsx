@@ -27,7 +27,7 @@ export function ChatWorkspace({ conversation, busy, error, onSend, onReset, onCl
       </aside>
 
       <section className="chat-panel">
-        <header className="chat-header"><div><span className="mobile-brand"><Brand /></span><h1>Dependency review</h1><p><span className="status-dot" /> Conversation memory active</p></div><div className="header-model"><span>MODEL</span><strong className="model-badge" tabIndex={0}>DepLab Hybrid<span className="model-tooltip" role="tooltip">Structured metadata model + failure head, trained on 4,109 real installation experiments.</span></strong></div></header>
+        <header className="chat-header"><div><span className="mobile-brand"><Brand /></span><h1>Dependency review</h1><p><span className="status-dot" /> Conversation memory active</p></div><div className="header-model"><span>AGENT</span><strong className="model-badge" tabIndex={0}>DepLab Cascade<span className="model-tooltip" role="tooltip">Structured candidate ranking + uv dependency resolution + ModernBERT post-install risk, trained on 21,490 real experiments.</span></strong></div></header>
         {error && <div className="global-error" role="alert"><span>{error}</span><button onClick={onClearError}>Dismiss</button></div>}
         <MessageList messages={conversation.messages} sending={busy} />
         <ChatComposer busy={busy} showExamples={conversation.messages.length === 0} onSend={onSend} />

@@ -38,6 +38,31 @@ class ShardTests(unittest.TestCase):
                     ROOT / "configs/systematic-matrix.json", Path(directory), shard_size=0
                 )
 
+    def test_uses_consistent_three_digit_names_for_large_shard_sets(self) -> None:
+        experiments = [
+            {
+                "package_a": f"alpha==1.0.{index}",
+                "package_b": "beta==2.0",
+                "python": "3.11",
+                "platform": "linux_x86_64",
+            }
+            for index in range(101)
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / "manifest.json"
+            output = root / "shards"
+            manifest.write_text(
+                json.dumps({"experiments": experiments}),
+                encoding="utf-8",
+            )
+            summary = shard_manifest(manifest, output, shard_size=1)
+            names = sorted(path.name for path in output.glob("shard-*.json"))
+        self.assertEqual(summary.shards, 101)
+        self.assertEqual(summary.filename_width, 3)
+        self.assertEqual(names[0], "shard-001-of-101.json")
+        self.assertEqual(names[-1], "shard-101-of-101.json")
+
 
 if __name__ == "__main__":
     unittest.main()

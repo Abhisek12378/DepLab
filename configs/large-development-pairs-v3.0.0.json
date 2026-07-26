@@ -1,0 +1,196 @@
+{
+  "schema_version": "3.0.0",
+  "description": "Known and new development families whose outcomes may be inspected.",
+  "platform": "linux_x86_64",
+  "python_versions": [
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ],
+  "families": [
+    {
+      "name": "numpy-pandas",
+      "package_a": "numpy",
+      "package_b": "pandas"
+    },
+    {
+      "name": "numpy-scipy",
+      "package_a": "numpy",
+      "package_b": "scipy"
+    },
+    {
+      "name": "numpy-scikit-learn",
+      "package_a": "numpy",
+      "package_b": "scikit-learn"
+    },
+    {
+      "name": "scipy-scikit-learn",
+      "package_a": "scipy",
+      "package_b": "scikit-learn"
+    },
+    {
+      "name": "pandas-scikit-learn",
+      "package_a": "pandas",
+      "package_b": "scikit-learn"
+    },
+    {
+      "name": "numpy-matplotlib",
+      "package_a": "numpy",
+      "package_b": "matplotlib"
+    },
+    {
+      "name": "numpy-numba",
+      "package_a": "numpy",
+      "package_b": "numba"
+    },
+    {
+      "name": "numpy-xarray",
+      "package_a": "numpy",
+      "package_b": "xarray"
+    },
+    {
+      "name": "pandas-xarray",
+      "package_a": "pandas",
+      "package_b": "xarray"
+    },
+    {
+      "name": "numpy-pillow",
+      "package_a": "numpy",
+      "package_b": "pillow"
+    },
+    {
+      "name": "matplotlib-pillow",
+      "package_a": "matplotlib",
+      "package_b": "pillow"
+    },
+    {
+      "name": "requests-urllib3",
+      "package_a": "requests",
+      "package_b": "urllib3"
+    },
+    {
+      "name": "flask-werkzeug",
+      "package_a": "flask",
+      "package_b": "werkzeug"
+    },
+    {
+      "name": "flask-jinja2",
+      "package_a": "flask",
+      "package_b": "jinja2"
+    },
+    {
+      "name": "jinja2-markupsafe",
+      "package_a": "jinja2",
+      "package_b": "markupsafe"
+    },
+    {
+      "name": "httpx-httpcore",
+      "package_a": "httpx",
+      "package_b": "httpcore"
+    },
+    {
+      "name": "django-asgiref",
+      "package_a": "django",
+      "package_b": "asgiref"
+    },
+    {
+      "name": "cryptography-pyopenssl",
+      "package_a": "cryptography",
+      "package_b": "pyopenssl"
+    },
+    {
+      "name": "fastapi-starlette",
+      "package_a": "fastapi",
+      "package_b": "starlette"
+    },
+    {
+      "name": "fastapi-pydantic",
+      "package_a": "fastapi",
+      "package_b": "pydantic"
+    },
+    {
+      "name": "starlette-anyio",
+      "package_a": "starlette",
+      "package_b": "anyio"
+    },
+    {
+      "name": "pydantic-pydantic-core",
+      "package_a": "pydantic",
+      "package_b": "pydantic-core"
+    },
+    {
+      "name": "httpx-anyio",
+      "package_a": "httpx",
+      "package_b": "anyio"
+    },
+    {
+      "name": "httpx-sniffio",
+      "package_a": "httpx",
+      "package_b": "sniffio"
+    },
+    {
+      "name": "numpy-pyarrow",
+      "package_a": "numpy",
+      "package_b": "pyarrow"
+    },
+    {
+      "name": "pandas-pyarrow",
+      "package_a": "pandas",
+      "package_b": "pyarrow"
+    },
+    {
+      "name": "numpy-polars",
+      "package_a": "numpy",
+      "package_b": "polars"
+    },
+    {
+      "name": "pandas-polars",
+      "package_a": "pandas",
+      "package_b": "polars"
+    },
+    {
+      "name": "numpy-opencv-python",
+      "package_a": "numpy",
+      "package_b": "opencv-python"
+    },
+    {
+      "name": "numpy-dask",
+      "package_a": "numpy",
+      "package_b": "dask"
+    },
+    {
+      "name": "pandas-dask",
+      "package_a": "pandas",
+      "package_b": "dask"
+    },
+    {
+      "name": "dask-distributed",
+      "package_a": "dask",
+      "package_b": "distributed"
+    },
+    {
+      "name": "pandas-seaborn",
+      "package_a": "pandas",
+      "package_b": "seaborn"
+    },
+    {
+      "name": "matplotlib-seaborn",
+      "package_a": "matplotlib",
+      "package_b": "seaborn"
+    },
+    {
+      "name": "typer-click",
+      "package_a": "typer",
+      "package_b": "click"
+    },
+    {
+      "name": "typer-rich",
+      "package_a": "typer",
+      "package_b": "rich"
+    }
+  ]
+}

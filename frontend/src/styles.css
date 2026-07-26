@@ -173,11 +173,27 @@ button:disabled { cursor: not-allowed; }
 .evidence-banner { display: flex; gap: 8px; align-items: center; padding: 11px 13px; border-radius: 9px; font-size: 11px; line-height: 1.5; }
 .evidence-banner.deterministic { border: 1px solid rgba(68,216,197,.17); color: #a8e7de; background: rgba(68,216,197,.055); }
 .evidence-banner.predictive { border: 1px solid rgba(141,123,255,.18); color: #c6bfff; background: rgba(141,123,255,.055); }
+.evidence-banner.resolver { border: 1px solid rgba(68,216,197,.18); color: #b8ebe3; background: rgba(68,216,197,.055); }
 .evidence-legend { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 8px; }
 .evidence-legend > span { display: inline-flex; align-items: center; gap: 6px; padding: 6px 9px; border: 1px solid var(--line); border-radius: 999px; color: #abb5c7; background: rgba(14,21,36,.8); font-size: 10px; font-weight: 700; }
 .evidence-legend i { width: 6px; height: 6px; border-radius: 50%; }
 .legend-fact i { background: var(--danger); box-shadow: 0 0 0 3px rgba(255,127,141,.08); }
+.legend-resolver i { background: var(--success); box-shadow: 0 0 0 3px rgba(108,224,178,.08); }
 .legend-prediction i { background: var(--violet); box-shadow: 0 0 0 3px rgba(141,123,255,.08); }
+.resolver-card { margin-top: 9px; padding: 11px 13px; border: 1px solid var(--line); border-left: 3px solid #748099; border-radius: 6px 9px 9px 6px; background: #0e1524; }
+.resolver-card > div { display: flex; align-items: center; gap: 7px; }
+.resolver-card strong { color: #e9edf6; font-size: 12px; }
+.resolver-card > div span { margin-left: auto; padding: 4px 8px; border-radius: 999px; font: 800 9px "DM Mono"; letter-spacing: .045em; }
+.resolver-card p { margin: 7px 0 4px; color: #aeb8c9; font-size: 11px; line-height: 1.55; }
+.resolver-card small { color: #7f8aa0; font-size: 9px; }
+.resolver-card.resolved { border-left-color: var(--success); }
+.resolver-card.resolved > div { color: var(--success); }
+.resolver-card.resolved > div span { color: #92e9c7; background: rgba(108,224,178,.1); }
+.resolver-card.blocked { border-left-color: var(--danger); }
+.resolver-card.blocked > div { color: var(--danger); }
+.resolver-card.blocked > div span { color: #ff9ca8; background: rgba(255,127,141,.1); }
+.resolver-card.unavailable > div { color: #a3aec1; }
+.resolver-card.unavailable > div span { color: #adb6c7; background: rgba(142,154,180,.1); }
 .result-section { margin-top: 10px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: rgba(9,14,25,.38); }
 .result-section summary { list-style: none; display: flex; align-items: center; justify-content: space-between; padding: 12px 13px; color: #c3cad8; font-size: 12px; font-weight: 700; cursor: pointer; }
 .result-section summary::-webkit-details-marker { display: none; }
@@ -185,10 +201,12 @@ button:disabled { cursor: not-allowed; }
 .risk-grid { display: grid; grid-template-columns: 1fr; gap: 7px; padding: 0 9px 9px; }
 .risk-card { padding: 11px 12px; border-radius: 6px 8px 8px 6px; background: #0e1524; }
 .constraint-card { border: 1px solid rgba(255,127,141,.16); border-left: 3px solid #ef6979; background: linear-gradient(90deg, rgba(255,127,141,.055), #0e1524 38%); }.prediction-card { border: 1px solid rgba(141,123,255,.16); border-left: 3px solid #8d7bff; }
+.ranking-card { border: 1px solid rgba(142,154,180,.16); border-left: 3px solid #748099; }
 .risk-card-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .evidence-pill { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .045em; }
 .evidence-pill.fact { color: #ff9ca8; }.evidence-pill.prediction { color: #b2a8ff; }
 .blocked-label { padding: 4px 8px; border: 1px solid rgba(255,127,141,.24); border-radius: 999px; color: #ff8f9c; background: rgba(255,127,141,.09); font: 800 9px "DM Mono", monospace; letter-spacing: .06em; }
+.ranking-label { padding: 4px 8px; border-radius: 999px; color: #aab4c7; background: rgba(142,154,180,.09); font: 800 9px "DM Mono", monospace; letter-spacing: .04em; }
 .risk-score { font: 600 10px "DM Mono"; }.risk-score.high { color: #ff9aa5; }.risk-score.medium { color: #efc879; }.risk-score.low { color: #76dcb7; }
 .risk-card h4 { margin: 10px 0 6px; color: #e7ebf4; font: 600 13px "DM Mono"; }.risk-card h4 span { color: #7d889d; }
 .risk-card p { margin: 0; color: #aab4c7; font-size: 11px; line-height: 1.65; }

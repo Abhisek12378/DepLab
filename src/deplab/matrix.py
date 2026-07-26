@@ -46,6 +46,7 @@ def generate_matrix(scope_path: Path, pairs_path: Path, output_path: Path) -> Ma
         raise MatrixError("systematic matrix currently supports only linux_x86_64")
 
     experiments: list[dict[str, str]] = []
+    coverage_exclusions: list[dict[str, Any]] = []
     excluded = 0
     seen_family_names: set[str] = set()
     for index, family in enumerate(families):
@@ -68,10 +69,22 @@ def generate_matrix(scope_path: Path, pairs_path: Path, output_path: Path) -> Ma
         versions_b = _versions(packages[package_b], package_b, len(coverage_order))
         for python_version in python_versions:
             python_index = coverage_order.index(python_version)
-            for version_a, coverage_a in versions_a:
-                for version_b, coverage_b in versions_b:
+            for version_a, coverage_a, details_a in versions_a:
+                for version_b, coverage_b, details_b in versions_b:
                     if not coverage_a[python_index] or not coverage_b[python_index]:
                         excluded += 1
+                        coverage_exclusions.append(
+                            {
+                                "family": family_name,
+                                "package_a": f"{package_a}=={version_a}",
+                                "package_b": f"{package_b}=={version_b}",
+                                "python": python_version,
+                                "platform": platform,
+                                "package_a_coverage": details_a[python_index],
+                                "package_b_coverage": details_b[python_index],
+                                "selection_method": "deterministic_coverage_exclusion",
+                            }
+                        )
                         continue
                     experiments.append(
                         {
@@ -93,6 +106,7 @@ def generate_matrix(scope_path: Path, pairs_path: Path, output_path: Path) -> Ma
         "scope": str(scope_path),
         "pair_definitions": str(pairs_path),
         "experiments": experiments,
+        "coverage_exclusions": coverage_exclusions,
     }
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
@@ -118,7 +132,11 @@ def _read_object(path: Path, label: str) -> dict[str, Any]:
     return payload
 
 
-def _versions(package: Any, name: str, coverage_length: int) -> list[tuple[str, list[bool]]]:
+def _versions(
+    package: Any,
+    name: str,
+    coverage_length: int,
+) -> list[tuple[str, list[bool], list[dict[str, Any]]]]:
     if not isinstance(package, dict) or not isinstance(package.get("versions"), list):
         raise MatrixError(f"scope package {name!r} has no versions list")
     result = []
@@ -128,12 +146,29 @@ def _versions(package: Any, name: str, coverage_length: int) -> list[tuple[str, 
             raise MatrixError(f"scope package {name!r} has an invalid version row")
         version = str(item.get("version") or "").strip()
         coverage = item.get("coverage")
+        details = item.get("coverage_details")
         if not version or version in seen:
             raise MatrixError(f"scope package {name!r} has a missing or duplicate version")
         if not isinstance(coverage, list) or len(coverage) != coverage_length or not all(
             isinstance(value, bool) for value in coverage
         ):
             raise MatrixError(f"scope package {name!r} version {version} has invalid coverage")
+        if details is None:
+            details = [
+                {
+                    "eligible": value,
+                    "reason": "eligible" if value else "wheel_coverage_false",
+                }
+                for value in coverage
+            ]
+        if (
+            not isinstance(details, list)
+            or len(details) != coverage_length
+            or not all(isinstance(value, dict) for value in details)
+        ):
+            raise MatrixError(
+                f"scope package {name!r} version {version} has invalid coverage details"
+            )
         seen.add(version)
-        result.append((version, coverage))
+        result.append((version, coverage, details))
     return result

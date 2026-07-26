@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-validation-matrix-v3.0.0.json",
+  "shard_index": 4,
+  "shard_count": 35,
+  "experiments": [
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.42.95",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.2",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.8",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.13",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.18",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.24",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.29",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.35",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.13",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.18",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.24",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.29",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.35",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.40",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.45",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.51",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.40",
+      "package_b": "botocore==1.43.56",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.45",
+      "package_b": "botocore==1.42.95",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.45",
+      "package_b": "botocore==1.43.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "boto3-botocore",
+      "package_a": "boto3==1.43.45",
+      "package_b": "botocore==1.43.8",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

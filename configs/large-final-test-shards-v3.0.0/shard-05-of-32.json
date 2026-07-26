@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-final-test-matrix-v3.0.0.json",
+  "shard_index": 5,
+  "shard_count": 32,
+  "experiments": [
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==1.4.52",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==1.4.52",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==1.4.52",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.30",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.35",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.40",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.46",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.0.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.51",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.3",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.8",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.13",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.3.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.5.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.19",
+      "package_b": "greenlet==3.5.4",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.1.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.2.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "sqlalchemy-greenlet",
+      "package_a": "sqlalchemy==2.0.24",
+      "package_b": "greenlet==3.2.5",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

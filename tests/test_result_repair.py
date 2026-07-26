@@ -31,6 +31,29 @@ class ResultRepairTests(unittest.TestCase):
         self.assertEqual(repaired, [{"experiment_id": "good", "outcome": "pass"}])
         self.assertEqual(backup_rows, rows)
 
+    def test_can_rotate_one_explicit_backup(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            results = root / "results.jsonl"
+            backup = root / "results.retry-backup.jsonl"
+            for experiment_id in ("first", "second"):
+                rows = [
+                    {"experiment_id": "good", "outcome": "pass"},
+                    {
+                        "experiment_id": experiment_id,
+                        "outcome": "infrastructure_failure",
+                    },
+                ]
+                results.write_text(
+                    "".join(json.dumps(row) + "\n" for row in rows),
+                    encoding="utf-8",
+                )
+                repair_result_file(results, backup_path=backup)
+            backup_rows = [
+                json.loads(line) for line in backup.read_text().splitlines()
+            ]
+        self.assertEqual(backup_rows, rows)
+
 
 if __name__ == "__main__":
     unittest.main()

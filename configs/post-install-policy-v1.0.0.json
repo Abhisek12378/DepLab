@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "policy_id": "deplab-post-install-cascade-v1.0.0",
+  "model_candidate": "modernbert_stage_aware_hybrid",
+  "model_pipeline": "deplab-large-hybrid-v3.0.0",
+  "embedding_model": "answerdotai/ModernBERT-base",
+  "decision": "1 - (1 - p_import) * (1 - p_smoke) >= threshold",
+  "post_install_threshold": 0.4726886805608258,
+  "threshold_selection": {
+    "dataset": "large sealed validation v3.0.0",
+    "population": "718 rows where uv resolution succeeded",
+    "positive_labels": [
+      "import_failure",
+      "smoke_test_failure"
+    ],
+    "selection_rule": "highest post-install F1, then balanced accuracy, recall, and fewer false warnings",
+    "outcome_counts": {
+      "pass": 639,
+      "import_failure": 60,
+      "smoke_test_failure": 19
+    },
+    "metrics": {
+      "true_post_install_failure": 70,
+      "false_warning": 87,
+      "true_pass": 552,
+      "missed_post_install_failure": 9,
+      "precision": 0.445859872611465,
+      "recall": 0.8860759493670886,
+      "specificity": 0.863849765258216,
+      "balanced_accuracy": 0.8749628573126522,
+      "f1": 0.5932203389830508
+    }
+  },
+  "language_policy": {
+    "post_install_result": "prediction",
+    "stage_name": "likely stage",
+    "runtime_verified": false
+  }
+}

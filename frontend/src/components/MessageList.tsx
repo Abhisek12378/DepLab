@@ -53,7 +53,7 @@ function Thinking() {
   return (
     <div className="message-row assistant thinking-row">
       <div className="message-avatar"><Bot size={17} /></div>
-      <div className="thinking"><span /><span /><span /><em>Checking constraints and model evidence…</em></div>
+      <div className="thinking"><span /><span /><span /><em>Ranking candidates and checking uv resolution…</em></div>
     </div>
   );
 }

@@ -10,20 +10,37 @@ interface StructuredAnswerProps {
 
 export function StructuredAnswer({ result, fallback }: StructuredAnswerProps) {
   const conflicts = result.pair_risks.flatMap((risk) => risk.constraint_conflicts);
-  const hasStructuredContent = conflicts.length > 0 || result.alternatives.length > 0;
+  const hasStructuredContent =
+    Boolean(result.resolver_checks?.[0]) ||
+    conflicts.length > 0 ||
+    result.alternatives.length > 0;
 
   if (!hasStructuredContent) return <ReactMarkdown>{fallback}</ReactMarkdown>;
 
   return (
     <div className="structured-answer">
-      {conflicts.length > 0 ? <ConstraintSummary conflicts={conflicts} /> : <p>{result.summary}</p>}
+      <p>{result.summary}</p>
+      {conflicts.length > 0 && <ConstraintSummary conflicts={conflicts} />}
       {result.alternatives.length > 0 && <RecommendationSummary alternatives={result.alternatives} />}
       {result.warnings.map((warning) => (
         <p className="answer-coverage-note" key={warning}>{formatCoverageWarning(warning)}</p>
       ))}
-      <p className="answer-verification">Prediction and published evidence only. No environment was installed.</p>
+      <p className="answer-verification">{verificationCopy(result.verification_status)}</p>
     </div>
   );
+}
+
+function verificationCopy(status: AdvisoryResult["verification_status"]): string {
+  if (status === "resolver_verified") {
+    return "uv verified dependency resolution. Import and smoke-test findings are model predictions. No environment was installed.";
+  }
+  if (status === "resolver_rejected") {
+    return "The dependency-resolution failure is a resolver result or published-constraint fact. No environment was installed.";
+  }
+  if (status === "resolver_unavailable") {
+    return "The resolver check was unavailable. No environment was installed.";
+  }
+  return "Prediction and published evidence only. No environment was installed.";
 }
 
 function ConstraintSummary({ conflicts }: { conflicts: ConstraintConflict[] }) {

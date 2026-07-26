@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 166,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.9.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.15.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.20.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.25.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.31.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.33.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.37.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.40.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.43.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==0.20.21",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==0.20.30",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.4.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.9.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.15.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.20.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.25.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.31.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.33.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.37.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.40.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.43.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==0.20.21",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==0.20.30",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.4.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.9.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.15.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.20.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.25.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.31.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.33.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.37.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.40.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.43.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==0.20.21",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==0.20.30",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.4.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.9.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.15.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.20.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.25.2",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.31.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.33.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.37.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.40.1",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.43.0",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==0.20.21",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==0.20.30",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.15.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.20.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.25.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.31.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.33.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.37.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.40.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==2.3.3",
+      "package_b": "polars==1.43.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==0.20.21",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==0.20.30",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.15.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.20.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.25.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.31.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.33.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.37.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.40.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.2",
+      "package_b": "polars==1.43.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==0.20.21",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==0.20.30",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.15.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.20.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.25.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.31.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.33.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.37.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.40.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.3",
+      "package_b": "polars==1.43.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==0.20.21",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==0.20.30",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.4.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.9.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.15.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.20.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.25.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.31.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.33.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.37.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.40.1",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pandas-polars",
+      "package_a": "pandas==3.0.5",
+      "package_b": "polars==1.43.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.8.29",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.11.41",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.14.51",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==3.4.16.57",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.1.2.30",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.3.0.38",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-opencv-python",
+      "package_a": "numpy==1.21.6",
+      "package_b": "opencv-python==4.5.2.52",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

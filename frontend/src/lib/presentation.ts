@@ -18,9 +18,16 @@ export function riskTone(value: number): "low" | "medium" | "high" {
 }
 
 export function evidenceLabel(risk: PairRisk): string {
-  return risk.evidence_type === "published_constraint_conflict"
-    ? "Published constraint"
-    : "Model prediction";
+  if (risk.evidence_type === "published_constraint_conflict") {
+    return "Published constraint";
+  }
+  if (risk.evidence_type === "structured_ranking_signal") {
+    return "Ranking signal";
+  }
+  if (risk.evidence_type === "post_install_prediction") {
+    return "Post-install prediction";
+  }
+  return "Model prediction";
 }
 
 export function formatCoverageWarning(warning: string): string {

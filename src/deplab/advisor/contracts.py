@@ -48,6 +48,18 @@ class ConstraintConflict:
 
 
 @dataclass(frozen=True)
+class ResolverCheck:
+    environment: dict[str, str]
+    status: str
+    resolvable: bool | None
+    duration_seconds: float
+    cache_hit: bool
+    explanation: str
+    evidence_type: str = "uv_resolution"
+    installed: bool = False
+
+
+@dataclass(frozen=True)
 class PairRisk:
     family: str
     target_package: str
@@ -66,6 +78,9 @@ class PairRisk:
     risk_detected: bool
     evidence_type: str
     constraint_conflicts: list[ConstraintConflict]
+    import_probability: float | None = None
+    smoke_probability: float | None = None
+    model_coverage: str = "covered"
 
 
 @dataclass(frozen=True)
@@ -85,6 +100,10 @@ class Alternative:
     predicted_failure: bool
     covered_pairs: int
     reason: str
+    resolver_status: str = "not_checked"
+    resolver_duration_seconds: float | None = None
+    post_install_risk: float | None = None
+    verification_status: str = "not_checked"
 
 
 @dataclass
@@ -93,12 +112,15 @@ class AdvisoryResult:
     summary: str
     parsed_intent: ParsedIntent | None = None
     pair_risks: list[PairRisk] = field(default_factory=list)
+    resolver_checks: list[ResolverCheck] = field(default_factory=list)
     alternatives: list[Alternative] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
     answer: str = ""
     model_scope: str = "prediction_only"
     verification_status: str = "not_runtime_verified"
+    candidates_considered: int = 0
+    candidates_resolver_checked: int = 0
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

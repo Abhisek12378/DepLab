@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-final-test-matrix-v3.0.0.json",
+  "shard_index": 18,
+  "shard_count": 32,
+  "experiments": [
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.73.0",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.73.0",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.73.0",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.73.0",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.73.0",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.78.0",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.51.1",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.54.0",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.57.0",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.59.3",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.61.3",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.63.2",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==4.22.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==4.23.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==4.24.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==4.25.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==4.25.8",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==5.27.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==5.28.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==5.29.4",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==6.30.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==6.33.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==6.33.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "grpcio-tools-protobuf",
+      "package_a": "grpcio-tools==1.65.2",
+      "package_b": "protobuf==7.35.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

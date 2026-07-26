@@ -36,6 +36,11 @@ class PyPIClient:
             self._payload_cache[url] = self._fetch(url)
         return self._payload_cache[url]
 
+    def project(self, package: str) -> dict[str, Any]:
+        """Return the PyPI project payload used for deterministic release selection."""
+        safe_package = urllib.parse.quote(package, safe="")
+        return self._get(f"https://pypi.org/pypi/{safe_package}/json")
+
     def release(
         self,
         package: str,

@@ -37,8 +37,12 @@ the compatibility model is reported as a prediction. Recommendations are
 grouped by whether they achieve the requested change, keep the current target,
 or require a fallback/downgrade; risk breaks ties before version distance.
 
-The application does **not** install the proposed environment. Deterministic
-constraint facts and model predictions are labelled separately. Unsupported package pairs,
+The application does **not** install the proposed environment. The structured
+model ranks candidate environments, `uv pip compile` verifies dependency
+resolution for a bounded number of candidates, and the ModernBERT stage-aware
+model predicts post-install import and smoke-test risk. Deterministic
+constraint facts, resolver results, and model predictions are labelled
+separately. Unsupported package pairs,
 versions, or Python versions return an explicit coverage message instead of a
 guessed score.
 
@@ -106,7 +110,7 @@ and the repository variable `EC2_DEPLOY_ENABLED` is set to `true`.
 
 The trained model, feature table, experiment outputs, `.env`, SSH keys, caches,
 and local environments are intentionally excluded from Git. EC2 stores the
-private model files under `/opt/deplab/shared/outputs`; a deployment changes
+private model files under `/opt/deplab/shared/models/current`; a deployment changes
 only the versioned source release and preserves those private files. See
 [`deploy/ec2/README.md`](deploy/ec2/README.md) for the deployment contract and
 required GitHub secrets.

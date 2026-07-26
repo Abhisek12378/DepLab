@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 129,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==3.4.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==3.6.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==4.2.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==4.5.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==4.8.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==4.12.0",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "starlette-anyio",
+      "package_a": "starlette==1.3.1",
+      "package_b": "anyio==4.14.2",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.8.1",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.8.1",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.8.1",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.8.1",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.8.1",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.6",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.6",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.6",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.6",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.10.6",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.29.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.35.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.38.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.41.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.0",
+      "package_b": "pydantic-core==2.46.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.29.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.35.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.38.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.41.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.1.1",
+      "package_b": "pydantic-core==2.46.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.29.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.35.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.38.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.41.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.4.2",
+      "package_b": "pydantic-core==2.46.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.29.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.35.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.38.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.41.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.6.0",
+      "package_b": "pydantic-core==2.46.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.16.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.18.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.22.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.23.4",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.25.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.29.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.33.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.35.1",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "pydantic-pydantic-core",
+      "package_a": "pydantic==2.7.0",
+      "package_b": "pydantic-core==2.38.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

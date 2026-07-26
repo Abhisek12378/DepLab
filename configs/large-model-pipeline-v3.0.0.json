@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0.0",
+  "pipeline_id": "deplab-large-hybrid-v3.0.0",
+  "development_rows": 21490,
+  "validation_rows": 3432,
+  "final_test_rows": 3158,
+  "target": "outcome is not pass",
+  "development_evaluation": {
+    "method": "five deterministic family-grouped out-of-fold splits",
+    "threshold_rule": "maximize balanced accuracy, then failure recall, then prefer the threshold closest to 0.5"
+  },
+  "candidates": [
+    "structured_weighted_logistic",
+    "modernbert_two_head_hybrid",
+    "modernbert_stage_aware_hybrid"
+  ],
+  "modernbert": {
+    "model": "answerdotai/ModernBERT-base",
+    "encoder_frozen": true,
+    "maximum_tokens": 512,
+    "maximum_chunks": 4,
+    "pooling": "attention-mask mean per chunk, mean across chunks, L2 normalization",
+    "release_projection_dimensions": 32
+  },
+  "boosting": {
+    "estimators": 70,
+    "learning_rate": 0.07,
+    "maximum_depth": 3,
+    "minimum_leaf": 30,
+    "l2": 2.0,
+    "feature_fraction": 0.65,
+    "random_seed": 20260726
+  },
+  "validation_policy": {
+    "outcomes_remain_sealed_until_candidate_models_thresholds_and_blind_predictions_are_hashed": true,
+    "selection_rule": "highest validation balanced accuracy, then mean recall across resolution/import/smoke failures, then failure recall, then lower Brier score",
+    "thresholds_must_not_be_retuned_on_validation": true
+  },
+  "final_test_policy": {
+    "outcomes_remain_sealed_until_one candidate and its evaluation procedure are frozen": true,
+    "selected_algorithm_may_be_refit_on_development_plus_validation": true,
+    "decision_threshold_remains_frozen": true,
+    "final_test_is_used_exactly_once": true
+  },
+  "forbidden_inputs": [
+    "installation outcomes or derived labels",
+    "resolved or installed environments",
+    "import and smoke-test outputs",
+    "errors and logs",
+    "runtime duration",
+    "machine, cache and network measurements",
+    "experiment IDs",
+    "package-family identity as a trainable feature"
+  ]
+}

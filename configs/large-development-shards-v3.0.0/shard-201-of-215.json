@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 201,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==2.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==4.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==6.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==7.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==8.0.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==8.1.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==8.1.6",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==8.3.1",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.27.0",
+      "package_b": "click==8.4.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.7.0",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.9.3",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.12.1",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.13.0",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.15.2",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.17.1",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==8.0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==8.1.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==8.1.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==8.3.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.18.0",
+      "package_b": "click==8.4.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==0.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==0.5.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==2.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==2.6",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==4.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==6.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "typer-click",
+      "package_a": "typer==0.21.0",
+      "package_b": "click==7.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

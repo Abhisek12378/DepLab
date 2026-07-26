@@ -1,0 +1,63 @@
+{
+  "schema_version": "3.0.0",
+  "description": "Seven lightweight experiments used to verify CPython 3.8 through 3.14 before any large-dataset shard is started.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "experiments": [
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.8",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.13",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "requests-urllib3",
+      "package_a": "requests==2.32.3",
+      "package_b": "urllib3==2.2.3",
+      "python": "3.14",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

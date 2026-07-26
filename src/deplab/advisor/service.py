@@ -384,23 +384,60 @@ class AdvisorService:
         return " ".join(statements) + recommendation + evidence_note + " No environment was installed."
 
 
-def build_default_service(project_root: Path | None = None) -> AdvisorService:
+def build_default_service(project_root: Path | None = None) -> Any:
     root = project_root or Path(os.getenv("DEPLAB_PROJECT_ROOT", Path.cwd()))
+    model_root = Path(os.getenv("DEPLAB_MODEL_ROOT", str(root)))
+    private_outputs = model_root / "outputs"
     feature_paths = [
-        root / "outputs/deplab-expanded-development-v2.0.0/features.csv",
+        private_outputs
+        / "deplab-large-features-v3.0.0/development-features.csv",
+        private_outputs
+        / "deplab-large-features-v3.0.0/validation-inputs.csv",
     ]
     missing = [str(path) for path in feature_paths if not path.exists()]
     if missing:
-        raise FileNotFoundError("Missing DepLab feature table: " + ", ".join(missing))
-    model = HybridModel(
-        root / "outputs/deplab-expanded-weighted-logistic-v2.0.0/model.json",
-        root / "outputs/deplab-advanced-model-comparison-v3.0.0/model.json",
-        root / "outputs/deplab-hybrid-validation-v3.0.0/metrics.json",
+        raise FileNotFoundError(
+            "Missing production DepLab feature table: " + ", ".join(missing)
+        )
+    from .cascade_service import CascadeAdvisorService, load_post_install_threshold
+    from .production_runtime import (
+        ModernBertPostInstallModel,
+        StructuredRankingModel,
+    )
+    from .resolver import UVCompileVerifier
+
+    candidate_root = (
+        private_outputs / "deplab-large-candidate-freeze-v3.0.0"
+    )
+    structured = StructuredRankingModel(
+        candidate_root / "candidate-structured_weighted_logistic.json"
+    )
+    post_install = ModernBertPostInstallModel(
+        candidate_root / "candidate-modernbert_stage_aware_hybrid.json",
+        private_outputs / "large-release-modernbert-v3.0.0.jsonl",
+        load_post_install_threshold(
+            root / "configs/post-install-policy-v1.0.0.json"
+        ),
+    )
+    resolver = UVCompileVerifier(
+        uv_command=os.getenv("DEPLAB_UV_COMMAND", "uv"),
+        timeout_seconds=float(os.getenv("DEPLAB_RESOLVER_TIMEOUT_SECONDS", "15")),
+        maximum_concurrency=int(
+            os.getenv("DEPLAB_RESOLVER_MAXIMUM_CONCURRENCY", "2")
+        ),
+        uv_cache_dir=Path(
+            os.getenv(
+                "DEPLAB_UV_CACHE_DIR",
+                "/opt/deplab/shared/uv-cache",
+            )
+        ),
     )
     api_key = os.getenv("OPENAI_API_KEY")
-    return AdvisorService(
+    return CascadeAdvisorService(
         parser=OpenAIRequirementsAgent(api_key=api_key),
         features=FeatureTable(feature_paths),
-        model=model,
+        structured_model=structured,
+        post_install_model=post_install,
+        resolver=resolver,
         composer=OpenAIAnswerComposer(api_key=api_key) if api_key else None,
     )

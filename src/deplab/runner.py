@@ -22,7 +22,7 @@ from .models import (
     utc_now,
 )
 from .measurements import finish_resource_metrics, process_tree_rss_bytes, start_resource_metrics
-from .smoke import build_smoke_script
+from .smoke_v3 import build_smoke_script
 
 
 CommandRunner = Callable[[Sequence[str], float], StageResult]

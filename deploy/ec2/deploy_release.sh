@@ -24,19 +24,32 @@ if [[ ! -f "${SHARED_ROOT}/.env" ]]; then
   exit 3
 fi
 
-required_artifacts=(
-  "deplab-expanded-development-v2.0.0/features.csv"
-  "deplab-expanded-weighted-logistic-v2.0.0/model.json"
-  "deplab-advanced-model-comparison-v3.0.0/model.json"
-  "deplab-hybrid-validation-v3.0.0/metrics.json"
+MODEL_ROOT="${SHARED_ROOT}/models/current"
+required_model_artifacts=(
+  "outputs/deplab-large-features-v3.0.0/development-features.csv"
+  "outputs/deplab-large-features-v3.0.0/validation-inputs.csv"
+  "outputs/deplab-large-candidate-freeze-v3.0.0/candidate-structured_weighted_logistic.json"
+  "outputs/deplab-large-candidate-freeze-v3.0.0/candidate-modernbert_stage_aware_hybrid.json"
+  "outputs/large-release-modernbert-v3.0.0.jsonl"
 )
 
-for artifact in "${required_artifacts[@]}"; do
-  if [[ ! -f "${SHARED_ROOT}/outputs/${artifact}" ]]; then
-    echo "Missing private model artifact: ${artifact}" >&2
+for artifact in "${required_model_artifacts[@]}"; do
+  if [[ ! -f "${MODEL_ROOT}/${artifact}" ]]; then
+    echo "Missing production model artifact: ${artifact}" >&2
     exit 3
   fi
 done
+
+if ! grep -Eq '^DEPLAB_MODEL_ROOT=/opt/deplab/shared/models/current$' \
+  "${SHARED_ROOT}/.env"; then
+  echo "DEPLAB_MODEL_ROOT is missing from ${SHARED_ROOT}/.env." >&2
+  exit 3
+fi
+
+if ! command -v uv >/dev/null 2>&1; then
+  echo "The uv resolver is not installed for the production service." >&2
+  exit 3
+fi
 
 if [[ -e "${RELEASE_PATH}" ]]; then
   echo "Release path already exists: ${RELEASE_PATH}" >&2

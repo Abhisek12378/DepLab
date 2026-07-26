@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-validation-matrix-v3.0.0.json",
+  "shard_index": 18,
+  "shard_count": 35,
+  "experiments": [
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.5.2",
+      "package_b": "kombu==5.3.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.5.2",
+      "package_b": "kombu==5.3.7",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.5.2",
+      "package_b": "kombu==5.5.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.5.2",
+      "package_b": "kombu==5.6.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==3.0.24",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==3.0.31",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==3.0.37",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==4.2.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==4.5.0",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==4.6.5",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==4.6.10",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==5.2.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==5.3.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==5.3.7",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==5.5.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.6.3",
+      "package_b": "kombu==5.6.2",
+      "python": "3.9",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.15",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.20",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==3.1.26.post2",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.1.1",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.3.1",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==4.4.5",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==3.0.24",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==3.0.31",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==3.0.37",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==4.2.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==4.5.0",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==4.6.5",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==4.6.10",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==5.2.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==5.3.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==5.3.7",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==5.5.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "celery-kombu",
+      "package_a": "celery==5.0.2",
+      "package_b": "kombu==5.6.2",
+      "python": "3.10",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}

@@ -34,6 +34,16 @@ class MatrixTests(unittest.TestCase):
         self.assertEqual(first_contents, second_contents)
         self.assertEqual(summary.families, 6)
         self.assertEqual(summary.experiments + summary.excluded_for_wheel_coverage, 882)
+        self.assertEqual(
+            len(payload["coverage_exclusions"]),
+            summary.excluded_for_wheel_coverage,
+        )
+        self.assertTrue(
+            all(
+                row["selection_method"] == "deterministic_coverage_exclusion"
+                for row in payload["coverage_exclusions"]
+            )
+        )
         self.assertEqual(len(specs), summary.experiments)
         self.assertEqual(len({spec.experiment_id for spec in specs}), summary.experiments)
         self.assertTrue(

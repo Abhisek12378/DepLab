@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0.0",
+  "description": "A deterministic execution shard of the systematic matrix.",
+  "source_manifest": "configs/large-development-matrix-v3.0.0.json",
+  "shard_index": 159,
+  "shard_count": 215,
+  "experiments": [
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.33.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.37.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.40.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.43.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==0.20.21",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==0.20.30",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.9.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.15.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.20.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.25.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.31.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.33.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.37.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.40.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.43.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==0.20.21",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==0.20.30",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.9.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.15.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.20.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.25.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.31.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.33.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.37.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.40.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.43.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==0.20.21",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==0.20.30",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.9.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.15.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.20.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.25.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.31.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.33.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.37.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.40.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.4",
+      "package_b": "polars==1.43.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==0.20.21",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==0.20.30",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.4.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.9.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.15.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.20.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.25.2",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.31.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.33.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.37.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.40.1",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.4.6",
+      "package_b": "polars==1.43.0",
+      "python": "3.11",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==0.20.21",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==0.20.30",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.9.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.15.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.20.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.25.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.31.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.33.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.37.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.40.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==1.26.4",
+      "package_b": "polars==1.43.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==0.20.21",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==0.20.30",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.9.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.15.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.20.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.25.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.31.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.33.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.37.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.40.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.0.2",
+      "package_b": "polars==1.43.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==0.20.21",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==0.20.30",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.9.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.15.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.20.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.25.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.31.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.33.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.37.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.40.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.1.3",
+      "package_b": "polars==1.43.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==0.20.21",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==0.20.30",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.4.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.9.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.15.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.20.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.25.2",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.31.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.33.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.37.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.40.1",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    },
+    {
+      "family": "numpy-polars",
+      "package_a": "numpy==2.2.6",
+      "package_b": "polars==1.43.0",
+      "python": "3.12",
+      "platform": "linux_x86_64",
+      "selection_method": "systematic_cartesian_wheel_eligible"
+    }
+  ]
+}
