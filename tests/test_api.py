@@ -72,6 +72,28 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(payload["code"], "invalid_request")
         self.assertNotIn("requirements_text", payload["message"])
 
+    def test_accepts_every_supported_python_version(self) -> None:
+        for python_version in (
+            "3.8",
+            "3.9",
+            "3.10",
+            "3.11",
+            "3.12",
+            "3.13",
+            "3.14",
+        ):
+            with self.subTest(python_version=python_version):
+                response = self.client.post(
+                    "/api/v1/conversations",
+                    json={
+                        "requirements_text": "numpy==1.26.4",
+                        "python_version": python_version,
+                        "platform": "linux-x86_64",
+                    },
+                )
+                self.assertEqual(response.status_code, 201)
+                self.assertEqual(response.json()["python_version"], python_version)
+
     def test_missing_conversation_does_not_leak_details(self) -> None:
         response = self.client.get("/api/v1/conversations/missing")
         self.assertEqual(response.status_code, 404)
