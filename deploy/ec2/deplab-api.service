@@ -18,6 +18,7 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectHome=true
 ProtectSystem=strict
+ReadWritePaths=/opt/deplab/shared/uv-cache
 ProtectKernelTunables=true
 ProtectKernelModules=true
 ProtectControlGroups=true

@@ -265,6 +265,64 @@ class ProductionAgentTests(unittest.TestCase):
         self.assertEqual(result.status, "risk_found")
         self.assertEqual(result.verification_status, "resolver_rejected")
         self.assertFalse(result.alternatives)
+        self.assertTrue(
+            any("uv rejected all" in warning for warning in result.warnings)
+        )
+
+    def test_cascade_explains_unavailable_alternative_verification(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            table = _feature_table(
+                Path(directory),
+                blocked_version="2.0",
+            )
+            resolver = FakeResolver(
+                ResolverResult(
+                    status="unavailable",
+                    resolvable=None,
+                    duration_seconds=0.01,
+                    explanation="Resolver unavailable.",
+                )
+            )
+            service = CascadeAdvisorService(
+                parser=StaticParser(),
+                features=table,
+                structured_model=FakeStructuredModel(),  # type: ignore[arg-type]
+                post_install_model=FakePostInstallModel(),  # type: ignore[arg-type]
+                resolver=resolver,
+            )
+            result = service.analyze(
+                AnalysisRequest(
+                    "alpha==1.0\nbeta==1.0",
+                    "Can I upgrade alpha to 2.0?",
+                    "3.11",
+                )
+            )
+        self.assertFalse(result.alternatives)
+        self.assertTrue(
+            any(
+                "could not verify" in warning
+                for warning in result.warnings
+            )
+        )
+
+    def test_production_service_can_write_only_the_uv_cache(self) -> None:
+        root = Path(__file__).resolve().parents[1]
+        service = (
+            root / "deploy/ec2/deplab-api.service"
+        ).read_text(encoding="utf-8")
+        deploy = (
+            root / "deploy/ec2/deploy_release.sh"
+        ).read_text(encoding="utf-8")
+        self.assertIn("ProtectSystem=strict", service)
+        self.assertIn(
+            "ReadWritePaths=/opt/deplab/shared/uv-cache",
+            service,
+        )
+        self.assertIn("systemctl daemon-reload", deploy)
+        self.assertIn(
+            "/etc/systemd/system/deplab-api.service",
+            deploy,
+        )
 
     def test_cascade_returns_only_resolver_checked_low_risk_candidate(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -303,7 +361,10 @@ class ProductionAgentTests(unittest.TestCase):
         self.assertAlmostEqual(threshold, 0.4726886805608258)
 
 
-def _feature_table(root: Path) -> FeatureTable:
+def _feature_table(
+    root: Path,
+    blocked_version: str | None = None,
+) -> FeatureTable:
     path = root / "features.csv"
     columns = [
         "family",
@@ -325,6 +386,7 @@ def _feature_table(root: Path) -> FeatureTable:
         writer = csv.DictWriter(file, fieldnames=columns)
         writer.writeheader()
         for alpha in ("1.0", "2.0", "3.0"):
+            blocked = alpha == blocked_version
             writer.writerow(
                 {
                     "family": "alpha-beta",
@@ -336,9 +398,11 @@ def _feature_table(root: Path) -> FeatureTable:
                     "package_a_declares_package_b": "false",
                     "package_a_requirement_allows_b": "true",
                     "package_a_requirement_on_b": "",
-                    "package_b_declares_package_a": "false",
-                    "package_b_requirement_allows_a": "true",
-                    "package_b_requirement_on_a": "",
+                    "package_b_declares_package_a": str(blocked).lower(),
+                    "package_b_requirement_allows_a": str(not blocked).lower(),
+                    "package_b_requirement_on_a": (
+                        "alpha<2.0" if blocked else ""
+                    ),
                     "ranking_risk": "0.1",
                     "post_risk": "0.1",
                 }

@@ -63,6 +63,11 @@ chmod -R go-w "${RELEASE_PATH}"
 rm -rf "${RELEASE_PATH}/outputs"
 ln -s "${SHARED_ROOT}/outputs" "${RELEASE_PATH}/outputs"
 # systemd loads the protected shared environment file; releases must not link it.
+install -d -m 755 -o deplab -g deplab "${SHARED_ROOT}/uv-cache"
+install -m 644 \
+  "${RELEASE_PATH}/deploy/ec2/deplab-api.service" \
+  /etc/systemd/system/deplab-api.service
+systemctl daemon-reload
 
 python3 -m venv "${RELEASE_PATH}/.venv"
 "${RELEASE_PATH}/.venv/bin/python" -m pip install --disable-pip-version-check --upgrade pip
