@@ -553,6 +553,14 @@ class CascadeAdvisorService:
         warnings = list(dict.fromkeys(assessment.warnings))
         if resolver.resolvable is None:
             warnings.append(resolver.explanation)
+        warnings.extend(
+            _recommendation_warnings(
+                alternatives,
+                alternative_checks,
+                considered,
+            )
+        )
+        warnings = list(dict.fromkeys(warnings))
         result = AdvisoryResult(
             status=status,
             summary=summary,
@@ -627,6 +635,38 @@ def _resolver_check(
         cache_hit=result.cache_hit,
         explanation=result.explanation,
     )
+
+
+def _recommendation_warnings(
+    alternatives: list[Alternative],
+    checks: list[ResolverCheck],
+    considered: int,
+) -> list[str]:
+    if alternatives or considered == 0:
+        return []
+    unavailable = sum(check.resolvable is None for check in checks)
+    rejected = sum(check.resolvable is False for check in checks)
+    resolved = sum(check.resolvable is True for check in checks)
+    if unavailable and resolved == 0:
+        return [
+            f"DepLab generated {considered} candidate environments, but uv "
+            f"could not verify {unavailable} checked candidate(s). No "
+            "recommendation is shown without a successful resolver check."
+        ]
+    if rejected and resolved == 0:
+        return [
+            f"DepLab generated {considered} candidate environments, but uv "
+            f"rejected all {rejected} checked candidate(s)."
+        ]
+    if resolved:
+        return [
+            f"uv resolved {resolved} candidate environment(s), but each was "
+            "removed by the frozen post-install risk or coverage policy."
+        ]
+    return [
+        f"DepLab generated {considered} candidate environments, but none "
+        "reached the resolver-verification stage."
+    ]
 
 
 def _status(
