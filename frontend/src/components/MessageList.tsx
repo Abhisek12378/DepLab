@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type RefObject } from "react";
 import { Bot, UserRound } from "lucide-react";
 import type { ChatMessage } from "../types";
 import { ResultDetails } from "./ResultDetails";
@@ -11,23 +11,48 @@ interface MessageListProps {
 
 export function MessageList({ messages, sending }: MessageListProps) {
   const end = useRef<HTMLDivElement>(null);
+  const latestAssistant = useRef<HTMLElement>(null);
   useEffect(() => {
+    const latestMessage = messages[messages.length - 1];
+    if (!sending && latestMessage?.role === "assistant") {
+      latestAssistant.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+      return;
+    }
     end.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [messages, sending]);
   return (
     <div className="message-list" aria-live="polite">
       {messages.length === 0 && <EmptyChat />}
-      {messages.map((message) => <Message key={message.id} message={message} />)}
+      {messages.map((message, index) => (
+        <Message
+          key={message.id}
+          message={message}
+          messageRef={
+            index === messages.length - 1 && message.role === "assistant"
+              ? latestAssistant
+              : undefined
+          }
+        />
+      ))}
       {sending && <Thinking />}
       <div ref={end} />
     </div>
   );
 }
 
-function Message({ message }: { message: ChatMessage }) {
+function Message({
+  message,
+  messageRef,
+}: {
+  message: ChatMessage;
+  messageRef?: RefObject<HTMLElement | null>;
+}) {
   const assistant = message.role === "assistant";
   return (
-    <article className={`message-row ${message.role}`}>
+    <article className={`message-row ${message.role}`} ref={messageRef}>
       <div className="message-avatar">{assistant ? <Bot size={17} /> : <UserRound size={17} />}</div>
       <div className="message-content">
         <div className="message-meta"><strong>{assistant ? "DepLab" : "You"}</strong><time>{new Date(message.created_at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}</time></div>
