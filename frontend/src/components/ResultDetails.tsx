@@ -1,5 +1,4 @@
 import {
-  ArrowRight,
   CheckCircle2,
   ChevronRight,
   CircleX,
@@ -8,7 +7,6 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import {
-  categoryLabels,
   evidenceLabel,
   formatCoverageWarning,
   riskPercent,
@@ -16,48 +14,37 @@ import {
 } from "../lib/presentation";
 import type {
   AdvisoryResult,
-  Alternative,
   PairRisk,
   ResolverCheck,
 } from "../types";
 
 export function ResultDetails({ result }: { result: AdvisoryResult }) {
   const proposedResolver = result.resolver_checks?.[0];
+  const hasTechnicalEvidence =
+    Boolean(proposedResolver) || result.pair_risks.length > 0;
+
   return (
     <div className="result-details">
       <EvidenceBanner result={result} />
       <EvidenceLegend />
-      {proposedResolver && <ResolverCard check={proposedResolver} />}
-      {result.pair_risks.length > 0 && (
-        <details className="result-section" open>
+      {hasTechnicalEvidence && (
+        <details className="result-section technical-evidence">
           <summary>
-            <span>Compatibility evidence</span>
+            <span>How DepLab reached this answer</span>
             <ChevronRight size={16} />
           </summary>
-          <div className="risk-grid">
-            {result.pair_risks.map((risk) => (
-              <RiskCard
-                key={`${risk.family}-${risk.related_version}`}
-                risk={risk}
-              />
-            ))}
-          </div>
-        </details>
-      )}
-      {result.alternatives.length > 0 && (
-        <details className="result-section" open>
-          <summary>
-            <span>Recommended environments</span>
-            <ChevronRight size={16} />
-          </summary>
-          <div className="alternative-list">
-            {result.alternatives.map((item, index) => (
-              <AlternativeCard
-                key={`${item.target_version}-${item.category}`}
-                item={item}
-                index={index}
-              />
-            ))}
+          <div className="technical-evidence-body">
+            {proposedResolver && <ResolverCard check={proposedResolver} />}
+            {result.pair_risks.length > 0 && (
+              <div className="risk-grid">
+                {result.pair_risks.map((risk) => (
+                  <RiskCard
+                    key={`${risk.family}-${risk.related_version}`}
+                    risk={risk}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         </details>
       )}
@@ -139,7 +126,9 @@ function ResolverCard({ check }: { check: ResolverCheck }) {
       </div>
       <p>{check.explanation}</p>
       <small>
-        {check.cache_hit ? "Cached result" : `${check.duration_seconds.toFixed(2)}s`}
+        {check.cache_hit
+          ? "Cached result"
+          : `${check.duration_seconds.toFixed(2)}s`}
         {" · "}Resolution only · nothing installed
       </small>
     </article>
@@ -259,58 +248,4 @@ function RiskExplanation({
       failure.
     </p>
   );
-}
-
-function AlternativeCard({
-  item,
-  index,
-}: {
-  item: Alternative;
-  index: number;
-}) {
-  const tone = alternativeTone(item);
-  const recommended = tone === "goal";
-  return (
-    <article className={`alternative-card ${tone}`}>
-      <div className="alternative-rank">
-        {recommended ? <CheckCircle2 size={18} /> : index + 1}
-      </div>
-      <div className="alternative-body">
-        <div className="alternative-heading">
-          <strong>{categoryLabels[item.category]}</strong>
-          <span>{alternativeTag(tone)}</span>
-        </div>
-        <div className="change-list">
-          {item.changes.length === 0 ? (
-            <span className="no-change">No package changes</span>
-          ) : (
-            item.changes.map((change) => (
-              <span className="change-chip" key={change.package}>
-                <span>{change.package}</span>
-                <small>{change.from_version}</small>
-                <ArrowRight size={13} />
-                <b>{change.to_version}</b>
-              </span>
-            ))
-          )}
-        </div>
-      </div>
-      <div className="alternative-risk">
-        <span>{riskPercent(item.maximum_risk_score)}</span>
-        <small>max post-install risk</small>
-      </div>
-    </article>
-  );
-}
-
-function alternativeTone(item: Alternative): "goal" | "current" | "fallback" {
-  if (item.category === "achieves_requested_change") return "goal";
-  if (item.category === "keeps_current_version") return "current";
-  return "fallback";
-}
-
-function alternativeTag(tone: "goal" | "current" | "fallback"): string {
-  if (tone === "goal") return "Best match";
-  if (tone === "current") return "No change";
-  return "Fallback";
 }
